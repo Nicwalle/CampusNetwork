@@ -19,7 +19,7 @@
 # Group number
 GROUPNUMBER=255
 # Node configs  
-CONFIGDIR=example_cfg
+CONFIGDIR=project_cfg
 # boot script name
 BOOT="boot"
 # startup script name
@@ -37,19 +37,21 @@ function mk_topo {
     # <node name>-eth<count>, where count starts at 0 and is increased by 1
     # after each new interface
     # e.g. BXL-eth0 links to LLN-eth0
-    add_link BXL LLN
+    add_link P1 P2
     # BXL-eth1 links to BELNET-eth0
-    add_link BXL BELNET
+    add_link P1 P3
+
+    add_link P2 P3
 
     echo "@@ Adding LANs"
     # Create a new LAN (subnet), attached to BELNET, with 2 hosts: B1 and B2
-    mk_LAN BELNET B1 B2
+    ## mk_LAN BELNET B1 B2
     # Same but with 4 hosts in LLN
-    mk_LAN LLN L1 L2 L3 L4
+    ## mk_LAN LLN L1 L2 L3 L4
 
     echo "@@ Briding the network"
     # Connect BELNET to its two connectivity providers
-    bridge_node BELNET eth5 grp2
-    bridge_node BELNET eth2 as300
+    ## bridge_node BELNET eth5 grp2
+    ## bridge_node BELNET eth2 as300
 }
 
