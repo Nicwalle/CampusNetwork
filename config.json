@@ -1,0 +1,345 @@
+{
+    "config_folder": "project_config",
+    "routers": [
+        {
+            "name": "P0",
+            "id": "0",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 1,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 2,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 2,
+                    "connected-router": 4,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 3,
+                    "connected-router": 6,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 4,
+                    "connected-router": 8,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1::0",
+            "subnet": "128"
+        },
+        {
+            "name": "P1",
+            "id": "1",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 0,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 3,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 2,
+                    "connected-router": 5,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 3,
+                    "connected-router": 7,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 4,
+                    "connected-router": 9,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1::1",
+            "subnet": "128"
+        },
+        {
+            "name": "LUX0",
+            "id": "2",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 0,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 3,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1:0200::2",
+            "subnet": "128"
+        },
+        {
+            "name": "LUX1",
+            "id": "3",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 0,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 2,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1:0200::3",
+            "subnet": "128"
+        },
+        {
+            "name": "NAM0",
+            "id": "4",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 0,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 5,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1:0400::4",
+            "subnet": "128"
+        },
+        {
+            "name": "NAM1",
+            "id": "5",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 1,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 4,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1:0400::5",
+            "subnet": "128"
+        },
+        {
+            "name": "LG0",
+            "id": "6",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 0,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 7,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1:0600::6",
+            "subnet": "128"
+        },
+        {
+            "name": "LG1",
+            "id": "7",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 1,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 6,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1:0600::7",
+            "subnet": "128"
+        },
+        {
+            "name": "BW0",
+            "id": "8",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 0,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 9,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1:0800::8",
+            "subnet": "128"
+        },
+        {
+            "name": "BW1",
+            "id": "9",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 1,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 8,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 4000,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "active": true
+                }
+            ],
+            "ip": "fde4:1:0800::9",
+            "subnet": "128"
+        }
+    ]
+}

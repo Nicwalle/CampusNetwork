@@ -17,7 +17,7 @@
 
 # You can override any of these settings on a per-topology basis
 # Group number
-GROUPNUMBER=255
+GROUPNUMBER=1
 # Node configs  
 CONFIGDIR=project_cfg
 # boot script name
