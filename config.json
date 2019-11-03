@@ -1,9 +1,12 @@
 {
-    "config_folder": "project_config",
+    "config_folder": "nicolas_test",
+    "as_number": 65001,
     "routers": [
         {
             "name": "P0",
             "id": "0",
+            "ip": "fde4:1::0",
+            "subnet": "128",
             "interfaces": [
                 {
                     "number": 0,
@@ -53,11 +56,26 @@
                     "dead-time": 4000,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
+                },
+                {
+                    "number": 5,
+                    "cost": 1,
+                    "bgp_active": true,
+                    "bgp_address": "fde4::1:cafe/64",
+                    "instance-id": 0
                 }
             ],
-            "ip": "fde4:1::0",
-            "subnet": "128"
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "as_number": 64512,
+                        "ip": "fde4::1",
+                        "prefixes": ["fde4:1::/32"]
+                    }
+                ]
+            }
         },
         {
             "name": "P1",
@@ -151,7 +169,7 @@
             "interfaces": [
                 {
                     "number": 0,
-                    "connected-router": 0,
+                    "connected-router": 1,
                     "cost": 5,
                     "hello-time": 10,
                     "dead-time": 4000,
