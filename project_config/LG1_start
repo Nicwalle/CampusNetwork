@@ -12,6 +12,6 @@ ip link set dev LG1-eth1 up
 # and the linux kernel routing table
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/LG1.api -i /tmp/LG1_zebra.pid &
 # launching FRRouting OSPF daemon
-LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/LG1_ospf.conf -z /tmp/LG1.api -i /tmp/LG1_ospf6d.pid -A 127.0.0.1
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/LG1_ospf.conf -z /tmp/LG1.api -i /tmp/LG1_ospf6d.pid -A 127.0.0.1 &
 
 

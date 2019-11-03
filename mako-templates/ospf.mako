@@ -10,7 +10,7 @@ debug ospf6 neighbor state
 !
 interface lo
     ipv6 ospf6 cost 1
-    ipv6 ospf6 hello-interval 40
+    ipv6 ospf6 hello-interval 10
     ipv6 ospf6 dead-interval 40
     ipv6 ospf6 instance-id 0
 !

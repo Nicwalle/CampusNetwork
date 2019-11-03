@@ -1,5 +1,5 @@
 {
-    "config_folder": "nicolas_test",
+    "config_folder": "project_config",
     "as_number": 65001,
     "routers": [
         {
@@ -13,47 +13,47 @@
                     "connected-router": 1,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 2,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 2,
                     "connected-router": 4,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 3,
                     "connected-router": 6,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 4,
                     "connected-router": 8,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
                     "ospf_active": true
@@ -86,50 +86,50 @@
                     "connected-router": 0,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 3,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 2,
                     "connected-router": 5,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 3,
                     "connected-router": 7,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 4,
                     "connected-router": 9,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1::1",
@@ -144,20 +144,20 @@
                     "connected-router": 0,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 3,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1:0200::2",
@@ -172,20 +172,20 @@
                     "connected-router": 1,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 2,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1:0200::3",
@@ -200,20 +200,20 @@
                     "connected-router": 0,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 5,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1:0400::4",
@@ -228,20 +228,20 @@
                     "connected-router": 1,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 4,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1:0400::5",
@@ -256,20 +256,20 @@
                     "connected-router": 0,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 7,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1:0600::6",
@@ -284,20 +284,20 @@
                     "connected-router": 1,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 6,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1:0600::7",
@@ -312,20 +312,20 @@
                     "connected-router": 0,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 9,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1:0800::8",
@@ -340,20 +340,20 @@
                     "connected-router": 1,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 },
                 {
                     "number": 1,
                     "connected-router": 8,
                     "cost": 5,
                     "hello-time": 10,
-                    "dead-time": 4000,
+                    "dead-time": 40,
                     "instance-id": 0,
                     "area": "0.0.0.0",
-                    "active": true
+                    "ospf_active": true
                 }
             ],
             "ip": "fde4:1:0800::9",
