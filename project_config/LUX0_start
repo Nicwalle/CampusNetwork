@@ -10,8 +10,10 @@ ip link set dev LUX0-eth1 up
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table
-LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/LUX0.api -i /tmp/LUX0_zebra.pid &
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/LUX0.api -i /tmp/LUX0_zebra.pid --v6-rr-semantics &
 # launching FRRouting OSPF daemon
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/LUX0_ospf.conf -z /tmp/LUX0.api -i /tmp/LUX0_ospf6d.pid -A 127.0.0.1 &
+# launching FRRouting BGP daemon
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/bgpd -f /etc/LUX0_bgpd.conf -z /tmp/LUX0.api -i /tmp/LUX0_bgpd.pid -A 127.0.0.1 &
 
 

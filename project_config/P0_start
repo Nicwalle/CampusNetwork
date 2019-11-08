@@ -15,7 +15,7 @@ ip -6 addr add fde4::1:cafe/64 dev P0-eth5
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table
-LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/P0.api -i /tmp/P0_zebra.pid &
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/P0.api -i /tmp/P0_zebra.pid --v6-rr-semantics &
 # launching FRRouting OSPF daemon
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/P0_ospf.conf -z /tmp/P0.api -i /tmp/P0_ospf6d.pid -A 127.0.0.1 &
 # launching FRRouting BGP daemon

@@ -11,7 +11,7 @@
                 {
                     "number": 0,
                     "connected-router": 1,
-                    "cost": 5,
+                    "cost": 9,
                     "hello-time": 10,
                     "dead-time": 40,
                     "instance-id": 0,
@@ -70,9 +70,67 @@
                 "active": true,
                 "neighbors": [
                     {
+                        "type": "external",
                         "as_number": 64512,
                         "ip": "fde4::1",
-                        "prefixes": ["fde4:1::/32"]
+                        "prefixes": ["fde4:1::/32"],
+                        "interface-number": 5
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:200::2",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:200::3",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:400::4",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:400::5",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:600::6",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:600::7",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:800::8",
+                        "prefixes": [],
+                        "relationship": "client"
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:800::9",
+                        "prefixes": [],
+                        "relationship": "client"
                     }
                 ]
             }
@@ -80,11 +138,13 @@
         {
             "name": "P1",
             "id": "1",
+            "ip": "fde4:1::1",
+            "subnet": "128",
             "interfaces": [
                 {
                     "number": 0,
                     "connected-router": 0,
-                    "cost": 5,
+                    "cost": 9,
                     "hello-time": 10,
                     "dead-time": 40,
                     "instance-id": 0,
@@ -132,8 +192,67 @@
                     "ospf_active": true
                 }
             ],
-            "ip": "fde4:1::1",
-            "subnet": "128"
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:200::2",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:200::3",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:400::4",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:400::5",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:600::6",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:600::7",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:800::8",
+                        "prefixes": [],
+                        "relationship": "client"
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:800::9",
+                        "prefixes": [],
+                        "relationship": "client"
+                    }
+                ]
+            }
         },
         {
             "name": "LUX0",
@@ -152,7 +271,7 @@
                 {
                     "number": 1,
                     "connected-router": 3,
-                    "cost": 5,
+                    "cost": 7,
                     "hello-time": 10,
                     "dead-time": 40,
                     "instance-id": 0,
@@ -161,7 +280,24 @@
                 }
             ],
             "ip": "fde4:1:0200::2",
-            "subnet": "128"
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    }
+                ]
+            }
         },
         {
             "name": "LUX1",
@@ -180,7 +316,7 @@
                 {
                     "number": 1,
                     "connected-router": 2,
-                    "cost": 5,
+                    "cost": 7,
                     "hello-time": 10,
                     "dead-time": 40,
                     "instance-id": 0,
@@ -189,7 +325,24 @@
                 }
             ],
             "ip": "fde4:1:0200::3",
-            "subnet": "128"
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    }
+                ]
+            }
         },
         {
             "name": "NAM0",
@@ -208,7 +361,7 @@
                 {
                     "number": 1,
                     "connected-router": 5,
-                    "cost": 5,
+                    "cost": 7,
                     "hello-time": 10,
                     "dead-time": 40,
                     "instance-id": 0,
@@ -217,7 +370,24 @@
                 }
             ],
             "ip": "fde4:1:0400::4",
-            "subnet": "128"
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    }
+                ]
+            }
         },
         {
             "name": "NAM1",
@@ -236,7 +406,7 @@
                 {
                     "number": 1,
                     "connected-router": 4,
-                    "cost": 5,
+                    "cost": 7,
                     "hello-time": 10,
                     "dead-time": 40,
                     "instance-id": 0,
@@ -245,7 +415,24 @@
                 }
             ],
             "ip": "fde4:1:0400::5",
-            "subnet": "128"
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    }
+                ]
+            }
         },
         {
             "name": "LG0",
@@ -264,7 +451,7 @@
                 {
                     "number": 1,
                     "connected-router": 7,
-                    "cost": 5,
+                    "cost": 7,
                     "hello-time": 10,
                     "dead-time": 40,
                     "instance-id": 0,
@@ -273,7 +460,24 @@
                 }
             ],
             "ip": "fde4:1:0600::6",
-            "subnet": "128"
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    }
+                ]
+            }
         },
         {
             "name": "LG1",
@@ -292,7 +496,7 @@
                 {
                     "number": 1,
                     "connected-router": 6,
-                    "cost": 5,
+                    "cost": 7,
                     "hello-time": 10,
                     "dead-time": 40,
                     "instance-id": 0,
@@ -301,7 +505,24 @@
                 }
             ],
             "ip": "fde4:1:0600::7",
-            "subnet": "128"
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    }
+                ]
+            }
         },
         {
             "name": "BW0",
@@ -320,6 +541,16 @@
                 {
                     "number": 1,
                     "connected-router": 9,
+                    "cost": 7,
+                    "hello-time": 10,
+                    "dead-time": 40,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "ospf_active": true
+                },
+                {
+                    "number": 2,
+                    "connected-router": 10,
                     "cost": 5,
                     "hello-time": 10,
                     "dead-time": 40,
@@ -329,7 +560,31 @@
                 }
             ],
             "ip": "fde4:1:0800::8",
-            "subnet": "128"
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:0801::a",
+                        "prefixes": [],
+                        "relationship": "client"
+                    }
+                ]
+            }
         },
         {
             "name": "BW1",
@@ -348,6 +603,16 @@
                 {
                     "number": 1,
                     "connected-router": 8,
+                    "cost": 7,
+                    "hello-time": 10,
+                    "dead-time": 40,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "ospf_active": true
+                },
+                {
+                    "number": 2,
+                    "connected-router": 10,
                     "cost": 5,
                     "hello-time": 10,
                     "dead-time": 40,
@@ -357,7 +622,76 @@
                 }
             ],
             "ip": "fde4:1:0800::9",
-            "subnet": "128"
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::0",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1::1",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:0801::a",
+                        "prefixes": [],
+                        "relationship": "client"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "BX",
+            "id": "10",
+            "interfaces": [
+                {
+                    "number": 0,
+                    "connected-router": 8,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 40,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "ospf_active": true
+                },
+                {
+                    "number": 1,
+                    "connected-router": 9,
+                    "cost": 5,
+                    "hello-time": 10,
+                    "dead-time": 40,
+                    "instance-id": 0,
+                    "area": "0.0.0.0",
+                    "ospf_active": true
+                }
+            ],
+            "ip": "fde4:1:0801::a",
+            "subnet": "128",
+            "bgp": {
+                "active": true,
+                "neighbors": [
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:800::8",
+                        "prefixes": []
+                    },
+                    {
+                        "type": "internal",
+                        "as_number": 65001,
+                        "ip": "fde4:1:800::9",
+                        "prefixes": []
+                    }
+                ]
+            }
         }
     ]
 }

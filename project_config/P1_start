@@ -13,8 +13,10 @@ ip link set dev P1-eth4 up
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table
-LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/P1.api -i /tmp/P1_zebra.pid &
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/P1.api -i /tmp/P1_zebra.pid --v6-rr-semantics &
 # launching FRRouting OSPF daemon
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/P1_ospf.conf -z /tmp/P1.api -i /tmp/P1_ospf6d.pid -A 127.0.0.1 &
+# launching FRRouting BGP daemon
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/bgpd -f /etc/P1_bgpd.conf -z /tmp/P1.api -i /tmp/P1_bgpd.pid -A 127.0.0.1 &
 
 

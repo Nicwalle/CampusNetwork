@@ -28,7 +28,6 @@ interface ${router["name"]}-eth${eth_interface['number']}
 % endfor
 router ospf6
     ospf6 router-id 1.${router["id"]}.${router["id"]}.${router["id"]}
-    area 0.0.0.0 range ${router["ip"]}/${router["subnet"]}
     interface lo area 0.0.0.0
     % for eth_interface in router["interfaces"]:
     % if eth_interface.get('ospf_active', False):

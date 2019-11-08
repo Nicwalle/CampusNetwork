@@ -1,0 +1,25 @@
+#! /usr/bin/env python3
+total=9
+
+import pexpect
+import json
+
+with open('config.json') as json_config:
+	router_info = json.load(json_config)
+	for i in router_info["routers"] :
+		print(i); 
+		child = pexpect.spawn('sudo ./connect_to.sh project_config ' + i["name"])
+		count = 0
+		for j in router_info["routers"] :
+			print("\n" + j)
+			#if j != i : 
+				#child.sendline ('ping6 -c 1 ' + j["ip"])
+				#idx = child.expect(['0% packet loss', r'\d+% packet loss'])
+				#if idx == 0 :
+				#	count ++
+				#else :
+				#	print('Error : ' + j["name"] + ' unreachable from ' + i["name"])
+		#child.sendline('exit')
+		#print(i["name"] + ' can reach ' + count + '/' + total);
+		break;
+print('End of the test')

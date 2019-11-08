@@ -14,7 +14,7 @@ ip -6 addr add ${eth_interface["bgp_address"]} dev ${router["name"]}-eth${eth_in
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table
-LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/${router["name"]}.api -i /tmp/${router["name"]}_zebra.pid &
+LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/zebra -A 127.0.0.1 -f /etc/zebra.conf -z /tmp/${router["name"]}.api -i /tmp/${router["name"]}_zebra.pid --v6-rr-semantics &
 # launching FRRouting OSPF daemon
 LD_LIBRARY_PATH=/usr/local/lib /usr/lib/frr/ospf6d -f /etc/${router["name"]}_ospf.conf -z /tmp/${router["name"]}.api -i /tmp/${router["name"]}_ospf6d.pid -A 127.0.0.1 &
 % if router.get("bgp", {}).get("active", False):

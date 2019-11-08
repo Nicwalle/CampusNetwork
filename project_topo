@@ -54,6 +54,9 @@ function mk_topo {
     add_link LG0 LG1
     add_link BW0 BW1
 
+    add_link BW0 BX
+    add_link BW1 BX
+
     echo "@@ Adding LANs"
     # Create a new LAN (subnet), attached to BELNET, with 2 hosts: B1 and B2
     ## mk_LAN BELNET B1 B2
