@@ -66,6 +66,13 @@ function mk_topo {
     echo "@@ Briding the network"
     # Connect BELNET to its two connectivity providers
     bridge_node P0 eth1 P0-eth5
+    bridge_node P0 eth5 P0-eth6
+
+    bridge_node P1 eth2 P1-eth5
+    bridge_node P1 eth3 P1-eth6
+    
+    bridge_node BX eth4 BX-eth2
+    
     ## bridge_node BELNET eth2 as300
 }
 

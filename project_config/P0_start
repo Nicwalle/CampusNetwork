@@ -12,6 +12,8 @@ ip link set dev P0-eth3 up
 ip link set dev P0-eth4 up
 ip link set dev P0-eth5 up
 ip -6 addr add fde4::1:cafe/64 dev P0-eth5
+ip link set dev P0-eth6 up
+ip -6 addr add fde4::1:acdc/64 dev P0-eth6
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table

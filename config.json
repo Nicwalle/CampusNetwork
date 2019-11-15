@@ -64,6 +64,13 @@
                     "bgp_active": true,
                     "bgp_address": "fde4::1:cafe/64",
                     "instance-id": 0
+                },
+                {
+                    "number": 6,
+                    "cost": 1,
+                    "bgp_active": true,
+                    "bgp_address": "fde4::1:acdc/64",
+                    "instance-id": 0
                 }
             ],
             "bgp": {
@@ -75,6 +82,19 @@
                         "ip": "fde4::1",
                         "prefixes": ["fde4:1::/32"],
                         "interface-number": 5
+                    },
+                    {
+                        "type": "external",
+                        "as_number": 65002,
+                        "ip": "fde4::2:bace",
+                        "prefixes": ["fde4:1::/32", "fde4:2:1::/48"],
+                        "interface-number": 6,
+                        "relationship": "provider",
+                        "input-whitelist": [],
+                        "output-whitelists": [
+                            "fde4:1::/32",
+                            "fde4:2:1::/48"
+                        ]
                     },
                     {
                         "type": "internal",
@@ -190,11 +210,39 @@
                     "instance-id": 0,
                     "area": "0.0.0.0",
                     "ospf_active": true
+                },
+                {
+                    "number": 5,
+                    "cost": 1,
+                    "bgp_active": true,
+                    "bgp_address": "fde4::1:dead/64",
+                    "instance-id": 0
+                },
+                {
+                    "number": 6,
+                    "cost": 1,
+                    "bgp_active": true,
+                    "bgp_address": "fde4::1:babe/64",
+                    "instance-id": 0
                 }
             ],
             "bgp": {
                 "active": true,
                 "neighbors": [
+                    {
+                        "type": "external",
+                        "as_number": "65005",
+                        "ip": "fde4::5:dead",
+                        "prefixes": ["fde4:1::/32"],
+                        "interface-number": 5
+                    },
+                    {
+                        "type": "external",
+                        "as_number": "65004",
+                        "ip": "fde4::4:babe",
+                        "prefixes": ["fde4:1::/32"],
+                        "interface-number": 6
+                    },
                     {
                         "type": "internal",
                         "as_number": 65001,
@@ -671,6 +719,13 @@
                     "instance-id": 0,
                     "area": "0.0.0.0",
                     "ospf_active": true
+                },
+                {
+                    "number": 2,
+                    "cost": 1,
+                    "bgp_active": true,
+                    "bgp_address": "fde4::1:face/64",
+                    "instance-id": 0
                 }
             ],
             "ip": "fde4:1:0801::a",
@@ -689,7 +744,14 @@
                         "as_number": 65001,
                         "ip": "fde4:1:800::9",
                         "prefixes": []
-                    }
+                    },
+                    {
+                        "type": "external",
+                        "as_number": "65009",
+                        "ip": "fde4::1:caf9",
+                        "prefixes": ["fde4:1::/32"],
+                        "interface-number": 2
+                    }                       
                 ]
             }
         }
