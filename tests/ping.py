@@ -3,9 +3,9 @@
 import pexpect
 import json
 
-from CampusNetwork.tests.Logger import Logger
+from Logger import Logger
 
-with open('config.json') as json_config:
+with open('../config.json') as json_config:
     router_info = json.load(json_config)
     for router1 in router_info["routers"]:
         child = pexpect.spawn('sudo ./connect_to.sh project_config ' + router1["name"])
