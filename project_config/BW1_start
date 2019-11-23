@@ -2,7 +2,7 @@
 ldconfig
 
 ip link set dev lo up
-ip -6 addr add fde4:1:0800::9/128 dev lo
+ip -6 addr add fde4:1:800::9/128 dev lo
 
 # Assigning IP addr for P1-eth0
 ip link set dev BW1-eth0 up

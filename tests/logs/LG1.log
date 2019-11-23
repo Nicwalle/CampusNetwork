@@ -1,0 +1,13 @@
+2019-11-23 22:09:48 INFO     LG1    can reach 11/11 routers of the core network
+2019-11-23 22:11:20 INFO     LG1    reached P0 via fde4:1:600::6 -> fde4:1:: (LG0 -> P0)
+2019-11-23 22:11:21 INFO     LG1    reached P1 via fde4:1::1 (P1)
+2019-11-23 22:11:22 INFO     LG1    reached LUX0 via fde4:1:600::6 -> fde4:1:: -> fde4:1:200::2 (LG0 -> P0 -> LUX0)
+2019-11-23 22:11:23 INFO     LG1    reached LUX1 via fde4:1::1 -> fde4:1:200::3 (P1 -> LUX1)
+2019-11-23 22:11:24 INFO     LG1    reached NAM0 via fde4:1:600::6 -> fde4:1:: -> fde4:1:400::4 (LG0 -> P0 -> NAM0)
+2019-11-23 22:11:25 INFO     LG1    reached NAM1 via fde4:1::1 -> fde4:1:400::5 (P1 -> NAM1)
+2019-11-23 22:11:26 INFO     LG1    reached LG0 via fde4:1:600::6 (LG0)
+2019-11-23 22:11:28 INFO     LG1    reached LG1 via fde4:1:600::7 (LG1)
+2019-11-23 22:11:29 INFO     LG1    reached BW0 via fde4:1:600::6 -> fde4:1:: -> fde4:1:800::8 (LG0 -> P0 -> BW0)
+2019-11-23 22:11:30 INFO     LG1    reached BW1 via fde4:1::1 -> fde4:1:800::9 (P1 -> BW1)
+2019-11-23 22:11:31 INFO     LG1    reached BX via fde4:1::1 -> fde4:1:800::9 -> fde4:1:801::a (P1 -> BW1 -> BX)
+2019-11-23 22:12:38 INFO     LG1    can reach 11/11 routers of the core network

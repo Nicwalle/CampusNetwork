@@ -1,0 +1,6 @@
+traceroute6 fde4:1::0
+traceroute6 fde4:1::0
+bash-4.3# traceroute6 fde4:1::0
+traceroute to fde4:1::0 (fde4:1::), 30 hops max, 80 byte packets
+ 1  fde4:1:: (fde4:1::)  0.050 ms  0.006 ms  0.006 ms
+bash-4.3# 

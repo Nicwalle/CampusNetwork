@@ -2,11 +2,13 @@
 ldconfig
 
 ip link set dev lo up
-ip -6 addr add fde4:1:0600::6/128 dev lo
+ip -6 addr add fde4:1:600::6/128 dev lo
 
 # Assigning IP addr for P1-eth0
 ip link set dev LG0-eth0 up
 ip link set dev LG0-eth1 up
+ip link set dev LG0-eth2 up
+ip -6 addr add fde4:1:600::4:beef/64 dev LG0-eth2
 
 # zebra is required to make the link between all FRRouting daemons
 # and the linux kernel routing table

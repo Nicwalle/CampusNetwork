@@ -1,2 +1,4 @@
 .vagrant
 tags
+*/__pycache__/*
+.vscode

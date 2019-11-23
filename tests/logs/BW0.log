@@ -1,0 +1,13 @@
+2019-11-23 22:09:49 INFO     BW0    can reach 11/11 routers of the core network
+2019-11-23 22:11:32 INFO     BW0    reached P0 via fde4:1:: (P0)
+2019-11-23 22:11:33 INFO     BW0    reached P1 via fde4:1:800::9 -> fde4:1::1 (BW1 -> P1)
+2019-11-23 22:11:34 INFO     BW0    reached LUX0 via fde4:1:: -> fde4:1:200::2 (P0 -> LUX0)
+2019-11-23 22:11:36 INFO     BW0    reached LUX1 via fde4:1:: -> fde4:1:200::2 -> fde4:1:200::3 (P0 -> LUX0 -> LUX1)
+2019-11-23 22:11:37 INFO     BW0    reached NAM0 via fde4:1:: -> fde4:1:400::4 (P0 -> NAM0)
+2019-11-23 22:11:38 INFO     BW0    reached NAM1 via fde4:1:: -> fde4:1:400::4 -> fde4:1:400::5 (P0 -> NAM0 -> NAM1)
+2019-11-23 22:11:39 INFO     BW0    reached LG0 via fde4:1:: -> fde4:1:600::6 (P0 -> LG0)
+2019-11-23 22:11:40 INFO     BW0    reached LG1 via fde4:1:: -> fde4:1:600::6 -> fde4:1:600::7 (P0 -> LG0 -> LG1)
+2019-11-23 22:11:41 INFO     BW0    reached BW0 via fde4:1:800::8 (BW0)
+2019-11-23 22:11:42 INFO     BW0    reached BW1 via fde4:1:800::9 (BW1)
+2019-11-23 22:11:43 INFO     BW0    reached BX via fde4:1:801::a (BX)
+2019-11-23 22:12:40 INFO     BW0    can reach 11/11 routers of the core network
