@@ -33,7 +33,8 @@ def bgp():
 def get_neighbors(traceroute_result):
     hops = []
     for line in traceroute_result.split('\r\n'):
-        hop = re.search(r"(\d)\s+([a-fA-F0-9\:]+)\s+\([a-fA-F0-9\:]+\)\s+([\d\.]+)\s?ms", line)
+        regex = r"(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)"
+        neighbor = re.search(r"(\d)\s+([a-fA-F0-9\:]+)\s+\([a-fA-F0-9\:]+\)\s+([\d\.]+)\s?ms", line)
         if hop is not None:
             hops.append(hop.group(2))
     return(hops)

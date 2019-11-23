@@ -319,7 +319,7 @@
                         "relationship":"peer",
                         "input-whitelist": ["fde4:5::/32"],
                         "output-whitelist":["fde4:1::/32"],
-                        "MD5_password": "ASes6500165005XXX"
+                        "MD5_password": "ASes6500165005"
                     }
                 ]
             }
@@ -831,7 +831,7 @@
                         "as_number": 65001,
                         "ip": "fde4:1:800::9",
                         "prefixes": [],
-                        "MD5_password": "FAUXMDP"
+                        "MD5_password": "BW1BX"
                     },
                     {
                         "type": "external",

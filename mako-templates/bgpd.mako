@@ -22,7 +22,7 @@ no bgp default ipv4-unicast
     
     neighbor ${bgp_neighbor["ip"]} remote-as ${bgp_neighbor["as_number"]}
     % if bgp_neighbor.get("MD5_password", "dontcare") != "dontcare":
-        neighbor ${bgp_neighbor["ip"]} password 7 ${bgp_neighbor["MD5_password"]}
+        neighbor ${bgp_neighbor["ip"]} password ${bgp_neighbor["MD5_password"]}
     % endif
     % if bgp_neighbor["type"] == "external":
         neighbor ${bgp_neighbor["ip"]} interface ${router["name"]}-eth${bgp_neighbor["interface-number"]}
