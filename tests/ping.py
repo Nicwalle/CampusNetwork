@@ -25,7 +25,14 @@ def pings():
                 count=count,
                 total=total_routers
             ))
-    print('End of the test')
 
-print("\nPerforming all the pings.\n\nYou can find the logs in the following folder: /tests/logs/ROUTER_NAME.log")
-pings()
+if __name__ == "__main__":
+    print()
+    print("## Pinging all the routers from each router ##")
+    print()
+
+    pings()
+
+    print()
+    print('## Pinging test finished ##')
+    print()

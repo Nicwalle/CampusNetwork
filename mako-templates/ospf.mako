@@ -3,7 +3,7 @@
 !
 hostname ${router["name"]}
 password zebra
-log stdout
+!log stdout
 service advanced-vty
 !
 debug ospf6 neighbor state

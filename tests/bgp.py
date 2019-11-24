@@ -13,35 +13,62 @@ from Logger import Logger
 def bgp():
     config = get_config()
 
-    for router1 in config["routers"]:
-        child = pexpect.spawn('sudo ../connect_to.sh project_config ' + router1["name"])
-        child.expect("bash-4.3#")
-        
-        for router2 in config["routers"]:
-            child.sendline('traceroute6 -q 1 ' + router2["ip"])
-            time.sleep(1)
-            child.expect("bash-4.3#")
+    for router in config["routers"]:
+        child = pexpect.spawn('sudo ../connect_to.sh project_config ' + router["name"])
+        child.expect('bash-4.3#')
+        child.sendline('LD_LIBRARY_PATH=/usr/local/lib vtysh')
+        child.expect('group1#')
+        child.sendline('show bgp summary')
+        child.expect('group1#')
 
-            hops = get_hops(child.before.decode('utf-8'))
-            
+        neighbors = get_neighbors(child.before.decode('utf-8'))
+        if router["bgp"]["active"]:
+            for expected_neighbor in router["bgp"]["neighbors"]:
+                if expected_neighbor["ip"] not in neighbors:
+                    Logger.get_logger(router['name']).error('is not establishing an {bgp_type}BGP session with AS{as_number} on IP {ip_addr} but should be'.format(
+                        bgp_type='i' if expected_neighbor['type'] == 'internal' else 'e',
+                        as_number=expected_neighbor["as_number"],
+                        ip_addr=expected_neighbor["ip"]
+                    ))
+                else:
+                    try:
+                        int(neighbors[expected_neighbor["ip"]]["state"])
+                        if expected_neighbor['type'] == 'external':
+                            Logger.get_logger(router['name']).info('has an active eBGP session with AS{as_number} ({ip_addr}) on interface {interface}'.format(
+                                as_number=expected_neighbor["as_number"],
+                                ip_addr=expected_neighbor["ip"],
+                                interface=router["name"] + "-eth" + str(expected_neighbor["interface-number"])
+                            ))
+                    except ValueError:
+                        Logger.get_logger(router['name']).error('has no active {bgp_type}BGP session with AS{as_number} on IP {ip_addr}. (State is {state})'.format(
+                            bgp_type='i' if expected_neighbor['type'] == 'internal' else 'e',
+                            as_number=expected_neighbor["as_number"],
+                            ip_addr=expected_neighbor["ip"],
+                            state=neighbors[expected_neighbor["ip"]]["state"]
+                        ))
+
+
+
         child.sendline('exit')
-        # Logger.get_logger(router1["name"]).info('can reach {count}/{total} routers of the core network'.format(
-        #     count=count,
-        #     total=total_routers
-        # ))
 
 def get_neighbors(traceroute_result):
-    hops = []
+    neighbors = {}
     for line in traceroute_result.split('\r\n'):
-        regex = r"(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)"
-        neighbor = re.search(r"(\d)\s+([a-fA-F0-9\:]+)\s+\([a-fA-F0-9\:]+\)\s+([\d\.]+)\s?ms", line)
-        if hop is not None:
-            hops.append(hop.group(2))
-    return(hops)
+        regex = r"(fde4:[a-fA-F0-9:]+)\s+(\S+)\s+([0-9]+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)"
+        neighbor = re.search(regex, line)
+        if neighbor is not None:
+            neighbors[neighbor.group(1)] = {
+                "ip": neighbor.group(1),
+                "as_number": neighbor.group(3),
+                "time": neighbor.group(9),
+                "state": neighbor.group(10)
+            }
+    return(neighbors)
 
 
 def get_config():
     with open('../config.json') as json_config:
         return json.load(json_config)
 
-bgp()
+if __name__ == "__main__":
+    bgp()

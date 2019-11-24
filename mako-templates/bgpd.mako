@@ -10,12 +10,6 @@ bgp router-id 1.${router["id"]}.${router["id"]}.${router["id"]}
 no bgp default ipv4-unicast
 
 
-!% if router["community"] == "main":
-!bgp community-list standard ${router["community"]} permit 65001:110
-!% elif router["community"] == "backup":
-!bgp community-list standard ${router["community"]} permit 65001:10
-!% endif
-
 % for bgp_neighbor in router["bgp"]["neighbors"]:
 ! 
     
@@ -42,16 +36,20 @@ no bgp default ipv4-unicast
             % for bgp_neighbor_prefix in bgp_neighbor["prefixes"]:
                 network ${bgp_neighbor_prefix}
             % endfor 
-            !% if bgp_neighbor["input-whitelist"] != []:
-            !    neighbor ${bgp_neighbor["ip"]} prefix-list ${bgp_neighbor["relationship"]}-${bgp_neighbor["as_number"]}-in in
-            !% endif
-            
-            !% if bgp_neighbor["output-whitelist"] != []:
-            !    neighbor ${bgp_neighbor["ip"]} prefix-list ${bgp_neighbor["relationship"]}-${bgp_neighbor["as_number"]}-out out
-            !%endif
+            % if bgp_neighbor["input-whitelist"] != []:
+                neighbor ${bgp_neighbor["ip"]} prefix-list ${bgp_neighbor["relationship"]}-${bgp_neighbor["as_number"]}-in in
+            % endif
+            % if bgp_neighbor["output-whitelist"] != []:
+                neighbor ${bgp_neighbor["ip"]} prefix-list ${bgp_neighbor["relationship"]}-${bgp_neighbor["as_number"]}-out out
+            %endif
+
+            % if  bgp_neighbor.get("community", "dontcare") != "dontcare":
+                neighbor ${bgp_neighbor["ip"]} route-map ${bgp_neighbor["community"]} in
+            % endif
         % endif
 
     exit-address-family
+
 
     % if bgp_neighbor["type"] == "external":
        % for output_ip in bgp_neighbor["output-whitelist"]:
@@ -63,4 +61,25 @@ no bgp default ipv4-unicast
         % endfor
     % endif
 % endfor
+
+    bgp community-list standard garbage permit 64512:100
+    ## bgp community-list standard customer permit 101:1
+    ## bgp community-list standard provider permit 101:2
+    ## bgp community-list standard shareCost permit 101:3
+    !
+    route-map garbage permit 10
+        set ip next-hop ::1
+        set local-preference 10
+        set community additive no-export
+    route-map  garbage permit 20
+    !
+    ## route-map customer permit 10
+    ##      call rm-community-in
+    ##      on-match next
+    ## route-map customer permit 20
+    ## !
+    ## route-map rm-community-in permit 10
+    ##      match community garbage
+    ##      call garbage
+    ## route-map rm-community-in permit 20
 

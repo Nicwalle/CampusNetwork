@@ -1,10 +1,15 @@
 cd tests
-echo "=============================="
-echo "=== RUNNING THE PING TESTS===="
-echo "=============================="
+
+echo "#################################################"
+echo "#                                               #"
+echo "#            STARTING NETWORK TESTS             #"
+echo "# you can find the logs in the following folder #"
+echo "#          /tests/logs/ROUTER_NAME.log          #"
+echo "#                                               #"
+echo "#################################################"
+
 python3 ping.py
 
-echo "================================"
-echo "= RUNNING THE TRACEROUTE TESTS ="
-echo "================================"
-python3.6 traceroute.py
+python3.6 ospf.py
+
+python3.6 bgp.py
