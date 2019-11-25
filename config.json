@@ -320,7 +320,7 @@
                         "relationship":"peer",
                         "community":"sharedCost",
                         "input-whitelist": [],
-                        "output-whitelist":["fde4:1::/32", "fde4:9::/32", "fde4:3::"],
+                        "output-whitelist":["fde4:1::/32", "fde4:9::/32", "fde4:3::/32"],
                         "MD5_password": "ASes6500165005",
                         "ping-ips": ["fde4:5:3000:1::5"]
                     }
@@ -595,7 +595,7 @@
                         "interface-number": 2,
                         "relationship":"client",
                         "community":"sharedCost",
-                        "input-whitelist": [],
+                        "input-whitelist": ["fde4:4::/32"],
                         "output-whitelist": ["fde4:1::/32", "fde4:3::/32", "fde4:9::/32"],
                         "MD5_password" : "lingi2142gr1gr4",
                         "ping-ips": ["fde4:4:f000:1::e"]

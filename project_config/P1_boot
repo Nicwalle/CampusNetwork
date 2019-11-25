@@ -3,6 +3,11 @@
 sysctl -w net.ipv6.conf.all.forwarding=1
 sysctl -w net.ipv6.conf.default.forwarding=1
 
+ip6tables -N LOGGINGLIMIT
+ip6tables -A LOGGINGLIMIT -m limit --limit 2/min -j LOG --log-prefix "ip6tables - drop (limit): " --log-level 4
+ip6tables -A LOGGINGLIMIT -j DROP
+
+
         ip6tables -A INPUT -i P1-eth0 -p 89 -j ACCEPT
         ip6tables -A INPUT -i P1-eth1 -p 89 -j ACCEPT
         ip6tables -A INPUT -i P1-eth2 -p 89 -j ACCEPT
@@ -10,30 +15,38 @@ sysctl -w net.ipv6.conf.default.forwarding=1
         ip6tables -A INPUT -i P1-eth4 -p 89 -j ACCEPT
 
         ip6tables -A FORWARD -i P1-eth5 -p 89 -j DROP
-        ip6tables -A FORWARD -i P1-eth5 -p tcp --destination-port 179
+        ip6tables -A FORWARD -i P1-eth5 -p tcp --destination-port 179 -j DROP
 
+        ip6tables -A INPUT -i P1-eth5 -j ACCEPT -m limit --limit 30/s --limit-burst 30
+        ip6tables -A FORWARD -i P1-eth5 -j ACCEPT -m limit --limit 30/s --limit-burst 30
+        ip6tables -A INPUT -i P1-eth5 -j LOGGINGLIMIT
+        ip6tables -A FORWARD -i P1-eth5 -j LOGGINGLIMIT
 
 ip6tables -A INPUT -p 89 -j DROP ## drop OSPF packets by default
 
 
 
-ip6tables -A FORWARD -d ::/128 -j DROP
+ip6tables -N LOGGINGPRIVATE
+ip6tables -A LOGGINGPRIVATE -m limit --limit 2/min -j LOG --log-prefix "ip6tables - drop (private addr): " --log-level 4
+ip6tables -A LOGGINGPRIVATE -j DROP
 
-ip6tables -A INPUT -s 2001:0002::/48 -j DROP 
-ip6tables -A FORWARD -s 2001:0002::/48 -j DROP 
-ip6tables -A INPUT -d 2001:0002::/48 -j DROP 
-ip6tables -A FORWARD -d 2001:0002::/48 -j DROP 
+ip6tables -A FORWARD -d ::/128 -j LOGGINGPRIVATE
 
-ip6tables -A INPUT -s 2001:0010::/28 -j DROP 
-ip6tables -A FORWARD -s 2001:0010::/28 -j DROP 
-ip6tables -A INPUT -d 2001:0010::/28 -j DROP 
-ip6tables -A FORWARD -d 2001:0010::/28 -j DROP 
+ip6tables -A INPUT -s 2001:0002::/48 -j LOGGINGPRIVATE 
+ip6tables -A FORWARD -s 2001:0002::/48 -j LOGGINGPRIVATE 
+ip6tables -A INPUT -d 2001:0002::/48 -j LOGGINGPRIVATE 
+ip6tables -A FORWARD -d 2001:0002::/48 -j LOGGINGPRIVATE 
 
-ip6tables -A INPUT -s 2001:db8::/32 -j DROP 
-ip6tables -A FORWARD -s 2001:db8::/32 -j DROP 
-ip6tables -A INPUT -d 2001:db8::/32 -j DROP 
-ip6tables -A FORWARD -d 2001:db8::/32 -j DROP 
+ip6tables -A INPUT -s 2001:0010::/28 -j LOGGINGPRIVATE 
+ip6tables -A FORWARD -s 2001:0010::/28 -j LOGGINGPRIVATE 
+ip6tables -A INPUT -d 2001:0010::/28 -j LOGGINGPRIVATE 
+ip6tables -A FORWARD -d 2001:0010::/28 -j LOGGINGPRIVATE 
 
-ip6tables -A INPUT -s ff00::/8 -j DROP 
-ip6tables -A FORWARD -s ff00::/8 -j DROP
+ip6tables -A INPUT -s 2001:db8::/32 -j LOGGINGPRIVATE 
+ip6tables -A FORWARD -s 2001:db8::/32 -j LOGGINGPRIVATE 
+ip6tables -A INPUT -d 2001:db8::/32 -j LOGGINGPRIVATE 
+ip6tables -A FORWARD -d 2001:db8::/32 -j LOGGINGPRIVATE 
+
+ip6tables -A INPUT -s ff00::/8 -j LOGGINGPRIVATE 
+ip6tables -A FORWARD -s ff00::/8 -j LOGGINGPRIVATE
 

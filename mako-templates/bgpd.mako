@@ -69,7 +69,7 @@ no bgp default ipv4-unicast
     !
     route-map garbage permit 10
         set ip next-hop ::1
-        set local-preference 10
+        set local-preference 5
         set community additive no-export
     route-map  garbage permit 20
     !
@@ -78,6 +78,7 @@ no bgp default ipv4-unicast
         on-match next
     route-map customer permit 20
         set local-preference 100
+    route-map customer permit 30
     !
     route-map rm-community-in permit 10
         match community garbage
