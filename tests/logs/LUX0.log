@@ -222,3 +222,186 @@
 2019-11-24 15:08:44 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
 2019-11-24 15:08:45 INFO     LUX0   reached BX via P0 -> BW0 -> BX
 2019-11-24 16:22:50 INFO     LUX0   can reach 11/11 routers of the core network
+2019-11-24 21:02:34 INFO     LUX0   can reach 11/11 routers of the core network
+2019-11-24 21:03:17 INFO     LUX0   reached P0 via P0
+2019-11-24 21:03:18 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-24 21:03:19 INFO     LUX0   reached LUX0 via LUX0
+2019-11-24 21:03:20 INFO     LUX0   reached LUX1 via LUX1
+2019-11-24 21:03:22 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-24 21:03:23 INFO     LUX0   reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:03:24 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-24 21:03:25 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 21:03:26 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-24 21:03:27 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 21:03:28 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-24 21:05:41 INFO     LUX0   reached P0 via P0
+2019-11-24 21:05:42 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-24 21:05:43 INFO     LUX0   reached LUX0 via LUX0
+2019-11-24 21:05:44 INFO     LUX0   reached LUX1 via LUX1
+2019-11-24 21:05:45 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-24 21:05:46 INFO     LUX0   reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:05:47 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-24 21:05:48 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 21:05:50 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-24 21:05:51 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 21:05:52 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-24 21:08:15 INFO     LUX0   reached P0 via P0
+2019-11-24 21:08:17 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-24 21:08:18 INFO     LUX0   reached LUX0 via LUX0
+2019-11-24 21:08:19 INFO     LUX0   reached LUX1 via LUX1
+2019-11-24 21:08:20 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-24 21:08:21 INFO     LUX0   reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:08:22 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-24 21:08:23 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 21:08:24 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-24 21:08:25 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 21:08:26 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-24 21:10:49 INFO     LUX0   reached P0 via P0
+2019-11-24 21:10:51 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-24 21:10:52 INFO     LUX0   reached LUX0 via LUX0
+2019-11-24 21:10:53 INFO     LUX0   reached LUX1 via LUX1
+2019-11-24 21:10:54 INFO     LUX0   reached NAM0 via LUX1 -> P1 -> NAM1 -> NAM0
+2019-11-24 21:10:55 INFO     LUX0   reached NAM1 via LUX1 -> P1 -> NAM1
+2019-11-24 21:10:56 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-24 21:10:57 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 21:10:58 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-24 21:10:59 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 21:11:00 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-24 23:10:06 INFO     LUX0   can reach 11/11 routers of the core network
+2019-11-24 23:10:49 INFO     LUX0   reached P0 via P0
+2019-11-24 23:10:50 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-24 23:10:51 INFO     LUX0   reached LUX0 via LUX0
+2019-11-24 23:10:52 INFO     LUX0   reached LUX1 via LUX1
+2019-11-24 23:10:53 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-24 23:10:54 INFO     LUX0   reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 23:10:55 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-24 23:10:56 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 23:10:57 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-24 23:10:58 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 23:10:59 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-24 23:13:12 INFO     LUX0   reached P0 via P0
+2019-11-24 23:13:13 INFO     LUX0   reached P1 via P0 -> P1
+2019-11-24 23:13:14 INFO     LUX0   reached LUX0 via LUX0
+2019-11-24 23:13:15 INFO     LUX0   reached LUX1 via LUX1
+2019-11-24 23:13:16 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-24 23:13:17 INFO     LUX0   reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 23:13:18 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-24 23:13:19 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 23:13:20 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-24 23:13:21 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 23:13:22 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-25 09:12:25 INFO     LUX0   can reach 11/11 routers of the core network
+2019-11-25 09:23:26 INFO     LUX0   reached P0 via P0
+2019-11-25 09:23:27 WARNING  LUX0   reached P1 via P0 -> P1 instead of LUX1 -> P1
+2019-11-25 09:23:28 INFO     LUX0   reached LUX0 via LUX0
+2019-11-25 09:23:29 WARNING  LUX0   reached LUX1 via P0 -> P1 -> LUX1 instead of LUX1
+2019-11-25 09:23:30 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-25 09:23:31 INFO     LUX0   reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:23:32 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-25 09:23:33 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:23:34 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-25 09:23:35 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:23:37 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-25 09:32:56 INFO     LUX0   reached P0 via P0
+2019-11-25 09:32:57 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-25 09:32:58 INFO     LUX0   reached LUX0 via LUX0
+2019-11-25 09:32:59 INFO     LUX0   reached LUX1 via LUX1
+2019-11-25 09:33:00 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-25 09:33:01 INFO     LUX0   reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:33:02 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-25 09:33:03 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:33:04 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-25 09:33:05 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:33:06 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-25 09:35:20 INFO     LUX0   reached P0 via P0
+2019-11-25 09:35:21 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-25 09:35:22 INFO     LUX0   reached LUX0 via LUX0
+2019-11-25 09:35:23 INFO     LUX0   reached LUX1 via LUX1
+2019-11-25 09:35:24 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-25 09:35:25 INFO     LUX0   reached NAM1 via LUX1 -> P1 -> NAM1
+2019-11-25 09:35:26 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-25 09:35:27 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:35:28 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-25 09:35:29 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:35:30 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-25 09:38:14 INFO     LUX0   reached P0 via LUX1 -> P1 -> P0
+2019-11-25 09:38:15 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-25 09:38:16 INFO     LUX0   reached LUX0 via LUX0
+2019-11-25 09:38:17 INFO     LUX0   reached LUX1 via LUX1
+2019-11-25 09:38:19 INFO     LUX0   reached NAM0 via LUX1 -> P1 -> NAM1 -> NAM0
+2019-11-25 09:38:20 INFO     LUX0   reached NAM1 via LUX1 -> P1 -> NAM1
+2019-11-25 09:38:21 INFO     LUX0   reached LG0 via LUX1 -> P1 -> LG1 -> LG0
+2019-11-25 09:38:22 INFO     LUX0   reached LG1 via LUX1 -> P1 -> LG1
+2019-11-25 09:38:23 INFO     LUX0   reached BW0 via LUX1 -> P1 -> BW1 -> BW0
+2019-11-25 09:38:24 INFO     LUX0   reached BW1 via LUX1 -> P1 -> BW1
+2019-11-25 09:38:25 INFO     LUX0   reached BX via LUX1 -> P1 -> BW1 -> BX
+2019-11-25 09:41:09 INFO     LUX0   reached P0 via LUX1 -> P1 -> P0
+2019-11-25 09:41:10 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-25 09:41:11 INFO     LUX0   reached LUX0 via LUX0
+2019-11-25 09:41:12 INFO     LUX0   reached LUX1 via LUX1
+2019-11-25 09:41:13 INFO     LUX0   reached NAM0 via LUX1 -> P1 -> NAM1 -> NAM0
+2019-11-25 09:41:14 INFO     LUX0   reached NAM1 via LUX1 -> P1 -> NAM1
+2019-11-25 09:41:15 INFO     LUX0   reached LG0 via LUX1 -> P1 -> LG1 -> LG0
+2019-11-25 09:41:16 INFO     LUX0   reached LG1 via LUX1 -> P1 -> LG1
+2019-11-25 09:41:17 INFO     LUX0   reached BW0 via LUX1 -> P1 -> BW1 -> BW0
+2019-11-25 09:41:18 INFO     LUX0   reached BW1 via LUX1 -> P1 -> BW1
+2019-11-25 09:41:19 INFO     LUX0   reached BX via LUX1 -> P1 -> BW1 -> BX
+2019-11-25 09:44:03 INFO     LUX0   reached P0 via P0
+2019-11-25 09:44:05 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-25 09:44:06 INFO     LUX0   reached LUX0 via LUX0
+2019-11-25 09:44:07 INFO     LUX0   reached LUX1 via LUX1
+2019-11-25 09:44:08 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-25 09:44:09 INFO     LUX0   reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:44:10 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-25 09:44:11 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:44:12 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-25 09:44:13 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:44:14 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-25 09:46:58 INFO     LUX0   reached P0 via P0
+2019-11-25 09:46:59 INFO     LUX0   reached P1 via LUX1 -> P1
+2019-11-25 09:47:00 INFO     LUX0   reached LUX0 via LUX0
+2019-11-25 09:47:01 INFO     LUX0   reached LUX1 via LUX1
+2019-11-25 09:47:02 INFO     LUX0   reached NAM0 via P0 -> NAM0
+2019-11-25 09:47:03 INFO     LUX0   reached NAM1 via LUX1 -> P1 -> NAM1
+2019-11-25 09:47:04 INFO     LUX0   reached LG0 via P0 -> LG0
+2019-11-25 09:47:05 INFO     LUX0   reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:47:06 INFO     LUX0   reached BW0 via P0 -> BW0
+2019-11-25 09:47:08 INFO     LUX0   reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:47:09 INFO     LUX0   reached BX via P0 -> BW0 -> BX
+2019-11-25 10:50:29 INFO     LUX0   can reach ip fde4::1 of AS64512
+2019-11-25 10:50:29 INFO     LUX0   can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 10:50:30 INFO     LUX0   can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 10:50:41 ERROR    LUX0   cannot reach ip fde4:4:f000:22::1 of AS65004
+2019-11-25 10:50:41 INFO     LUX0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 10:58:05 INFO     LUX0   can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 10:58:15 ERROR    LUX0   cannot reach ip fde4:4:f000:22::1 of AS65004
+2019-11-25 10:58:16 INFO     LUX0   can reach ip fde4::1 of AS64512
+2019-11-25 10:58:17 INFO     LUX0   can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 10:58:17 INFO     LUX0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:05:29 INFO     LUX0   can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:05:29 INFO     LUX0   can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:05:30 INFO     LUX0   can reach ip fde4::1 of AS64512
+2019-11-25 11:05:31 INFO     LUX0   can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:05:31 INFO     LUX0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:06:54 INFO     LUX0   can reach ip fde4::1 of AS64512
+2019-11-25 11:06:54 INFO     LUX0   can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:06:55 INFO     LUX0   can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:06:56 INFO     LUX0   can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:06:56 INFO     LUX0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:00 INFO     LUX0   can reach ip fde4::1 of AS64512
+2019-11-25 11:10:01 INFO     LUX0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:02 INFO     LUX0   can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:10:02 INFO     LUX0   can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:10:03 INFO     LUX0   can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:10:15 INFO     LUX0   can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:10:16 INFO     LUX0   can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:10:17 INFO     LUX0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:17 INFO     LUX0   can reach ip fde4::1 of AS64512
+2019-11-25 11:10:18 INFO     LUX0   can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:12:22 ERROR    LUX0   has no active iBGP session with AS65001 on IP fde4:1::. (State is Active)
+2019-11-25 11:12:22 ERROR    LUX0   has no active iBGP session with AS65001 on IP fde4:1::1. (State is Active)
+2019-11-25 11:14:03 INFO     LUX0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:14:03 INFO     LUX0   can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:14:04 INFO     LUX0   can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:14:05 INFO     LUX0   can reach ip fde4::1 of AS64512
+2019-11-25 11:14:05 INFO     LUX0   can reach ip fde4:9::1:caf9 of AS65009

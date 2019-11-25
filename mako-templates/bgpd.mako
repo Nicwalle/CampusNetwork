@@ -63,9 +63,9 @@ no bgp default ipv4-unicast
 % endfor
 
     bgp community-list standard garbage permit 64512:100
-    ## bgp community-list standard customer permit 101:1
-    ## bgp community-list standard provider permit 101:2
-    ## bgp community-list standard shareCost permit 101:3
+    bgp community-list standard customer permit 101:1
+    bgp community-list standard provider permit 101:2
+    bgp community-list standard sharedCost permit 101:3
     !
     route-map garbage permit 10
         set ip next-hop ::1
@@ -73,13 +73,23 @@ no bgp default ipv4-unicast
         set community additive no-export
     route-map  garbage permit 20
     !
-    ## route-map customer permit 10
-    ##      call rm-community-in
-    ##      on-match next
-    ## route-map customer permit 20
-    ## !
-    ## route-map rm-community-in permit 10
-    ##      match community garbage
-    ##      call garbage
-    ## route-map rm-community-in permit 20
+    route-map customer permit 10
+        call rm-community-in
+        on-match next
+    route-map customer permit 20
+        set local-preference 100
+    !
+    route-map rm-community-in permit 10
+        match community garbage
+        call garbage
+    route-map rm-community-in permit 20
+    !
+    route-map provider permit 10
+        set local-preference 10
+    route-map provider permit 20
+    !
+    route-map sharedCost permit 10
+        set local-preference 50
+    route-map sharedCost permit 20
+    !
 

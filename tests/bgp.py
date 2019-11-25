@@ -5,14 +5,13 @@ import json
 import os
 import time
 import re
-import networkx as nx
-import matplotlib.pyplot as plt
 
 from Logger import Logger
 
 def bgp():
     config = get_config()
 
+    peers_ips = {}
     for router in config["routers"]:
         child = pexpect.spawn('sudo ../connect_to.sh project_config ' + router["name"])
         child.expect('bash-4.3#')
@@ -22,6 +21,7 @@ def bgp():
         child.expect('group1#')
 
         neighbors = get_neighbors(child.before.decode('utf-8'))
+
         if router["bgp"]["active"]:
             for expected_neighbor in router["bgp"]["neighbors"]:
                 if expected_neighbor["ip"] not in neighbors:
@@ -39,6 +39,10 @@ def bgp():
                                 ip_addr=expected_neighbor["ip"],
                                 interface=router["name"] + "-eth" + str(expected_neighbor["interface-number"])
                             ))
+                            for ip in expected_neighbor["ping-ips"]:
+                                peers_ips[ip] = expected_neighbor["as_number"]
+
+
                     except ValueError:
                         Logger.get_logger(router['name']).error('has no active {bgp_type}BGP session with AS{as_number} on IP {ip_addr}. (State is {state})'.format(
                             bgp_type='i' if expected_neighbor['type'] == 'internal' else 'e',
@@ -50,6 +54,17 @@ def bgp():
 
 
         child.sendline('exit')
+        child.expect('bash-4.3#')
+    for router in config["routers"]:
+        for ip in peers_ips:
+            child = pexpect.spawn('sudo ../connect_to.sh project_config ' + router["name"])
+            child.expect('bash-4.3#')
+            child.sendline('ping6 -c 1 ' + ip)
+            idx = child.expect(['0% packet loss', r'\d+% packet loss'])
+            if idx == 0:
+                Logger.get_logger(router["name"]).info("can reach ip {ip} of AS{as_number}".format(ip=ip, as_number=peers_ips[ip]))
+            else:
+                Logger.get_logger(router["name"]).error("cannot reach ip {ip} of AS{as_number}".format(ip=ip, as_number=peers_ips[ip]))
 
 def get_neighbors(traceroute_result):
     neighbors = {}

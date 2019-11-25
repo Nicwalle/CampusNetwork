@@ -87,7 +87,7 @@ class Configurator:
         for router in self.routers:
             print("\t", router["name"], end="")
             start_template = Template(open('mako-templates/boot.mako').read())
-            config = start_template.render()
+            config = start_template.render(router=router)
             fd = open("{config_folder}/{router_name}_boot".format(
                 config_folder=self.config.get("config_folder"),
                 router_name=router["name"]

@@ -180,3 +180,173 @@
 2019-11-24 15:04:28 INFO     BW0    reached BW1 via fde4:1:800::9 (BW1)
 2019-11-24 15:04:29 INFO     BW0    reached BX via fde4:1:801::a (BX)
 2019-11-24 16:23:01 INFO     BW0    can reach 11/11 routers of the core network
+2019-11-24 21:02:46 INFO     BW0    can reach 11/11 routers of the core network
+2019-11-24 21:04:30 INFO     BW0    reached P0 via P0
+2019-11-24 21:04:31 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-24 21:04:32 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-24 21:04:33 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 21:04:34 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-24 21:04:35 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:04:36 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-24 21:04:37 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 21:04:38 INFO     BW0    reached BW0 via BW0
+2019-11-24 21:04:39 INFO     BW0    reached BW1 via BW1
+2019-11-24 21:04:40 INFO     BW0    reached BX via BX
+2019-11-24 21:06:54 INFO     BW0    reached P0 via P0
+2019-11-24 21:06:55 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-24 21:06:56 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-24 21:06:57 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 21:06:58 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-24 21:06:59 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:07:01 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-24 21:07:02 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 21:07:03 INFO     BW0    reached BW0 via BW0
+2019-11-24 21:07:04 INFO     BW0    reached BW1 via BW1
+2019-11-24 21:07:05 INFO     BW0    reached BX via BX
+2019-11-24 21:09:28 INFO     BW0    reached P0 via P0
+2019-11-24 21:09:29 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-24 21:09:30 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-24 21:09:31 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 21:09:32 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-24 21:09:33 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:09:34 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-24 21:09:35 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 21:09:36 INFO     BW0    reached BW0 via BW0
+2019-11-24 21:09:38 INFO     BW0    reached BW1 via BW1
+2019-11-24 21:09:39 INFO     BW0    reached BX via BX
+2019-11-24 21:12:02 INFO     BW0    reached P0 via P0
+2019-11-24 21:12:03 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-24 21:12:04 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-24 21:12:05 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 21:12:06 INFO     BW0    reached NAM0 via BW1 -> P1 -> NAM1 -> NAM0
+2019-11-24 21:12:07 INFO     BW0    reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-24 21:12:08 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-24 21:12:09 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 21:12:10 INFO     BW0    reached BW0 via BW0
+2019-11-24 21:12:11 INFO     BW0    reached BW1 via BW1
+2019-11-24 21:12:13 INFO     BW0    reached BX via BX
+2019-11-24 23:10:17 INFO     BW0    can reach 11/11 routers of the core network
+2019-11-24 23:12:01 INFO     BW0    reached P0 via P0
+2019-11-24 23:12:02 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-24 23:12:03 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-24 23:12:04 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 23:12:05 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-24 23:12:06 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 23:12:07 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-24 23:12:08 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 23:12:09 INFO     BW0    reached BW0 via BW0
+2019-11-24 23:12:10 INFO     BW0    reached BW1 via BW1
+2019-11-24 23:12:12 INFO     BW0    reached BX via BX
+2019-11-24 23:14:24 INFO     BW0    reached P0 via P0
+2019-11-24 23:14:25 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-24 23:14:26 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-24 23:14:27 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 23:14:28 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-24 23:14:29 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 23:14:30 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-24 23:14:32 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-24 23:14:33 INFO     BW0    reached BW0 via BW0
+2019-11-24 23:14:34 INFO     BW0    reached BW1 via BW1
+2019-11-24 23:14:35 INFO     BW0    reached BX via BX
+2019-11-25 09:12:36 INFO     BW0    can reach 11/11 routers of the core network
+2019-11-25 09:34:09 INFO     BW0    reached P0 via P0
+2019-11-25 09:34:10 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-25 09:34:11 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-25 09:34:12 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-25 09:34:13 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:34:14 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:34:15 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-25 09:34:16 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:34:17 INFO     BW0    reached BW0 via BW0
+2019-11-25 09:34:18 INFO     BW0    reached BW1 via BW1
+2019-11-25 09:34:19 INFO     BW0    reached BX via BX
+2019-11-25 09:36:32 INFO     BW0    reached P0 via P0
+2019-11-25 09:36:33 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-25 09:36:34 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-25 09:36:35 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-25 09:36:36 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:36:37 INFO     BW0    reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-25 09:36:38 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-25 09:36:40 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:36:41 INFO     BW0    reached BW0 via BW0
+2019-11-25 09:36:42 INFO     BW0    reached BW1 via BW1
+2019-11-25 09:36:43 INFO     BW0    reached BX via BX
+2019-11-25 09:39:27 INFO     BW0    reached P0 via P0
+2019-11-25 09:39:28 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-25 09:39:29 INFO     BW0    reached LUX0 via BW1 -> P1 -> LUX1 -> LUX0
+2019-11-25 09:39:30 INFO     BW0    reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-25 09:39:32 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:39:33 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:39:34 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-25 09:39:35 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:39:36 INFO     BW0    reached BW0 via BW0
+2019-11-25 09:39:37 INFO     BW0    reached BW1 via BW1
+2019-11-25 09:39:38 INFO     BW0    reached BX via BX
+2019-11-25 09:42:22 INFO     BW0    reached P0 via P0
+2019-11-25 09:42:23 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-25 09:42:24 INFO     BW0    reached LUX0 via BW1 -> P1 -> LUX1 -> LUX0
+2019-11-25 09:42:25 INFO     BW0    reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-25 09:42:26 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:42:27 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:42:28 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-25 09:42:29 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:42:30 INFO     BW0    reached BW0 via BW0
+2019-11-25 09:42:31 INFO     BW0    reached BW1 via BW1
+2019-11-25 09:42:32 INFO     BW0    reached BX via BX
+2019-11-25 09:45:16 INFO     BW0    reached P0 via P0
+2019-11-25 09:45:17 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-25 09:45:18 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-25 09:45:19 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-25 09:45:20 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:45:22 INFO     BW0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:45:23 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-25 09:45:24 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:45:25 INFO     BW0    reached BW0 via BW0
+2019-11-25 09:45:26 INFO     BW0    reached BW1 via BW1
+2019-11-25 09:45:27 INFO     BW0    reached BX via BX
+2019-11-25 09:48:11 INFO     BW0    reached P0 via P0
+2019-11-25 09:48:12 INFO     BW0    reached P1 via BW1 -> P1
+2019-11-25 09:48:13 INFO     BW0    reached LUX0 via P0 -> LUX0
+2019-11-25 09:48:14 INFO     BW0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-25 09:48:15 INFO     BW0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:48:16 INFO     BW0    reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-25 09:48:17 INFO     BW0    reached LG0 via P0 -> LG0
+2019-11-25 09:48:18 INFO     BW0    reached LG1 via P0 -> LG0 -> LG1
+2019-11-25 09:48:19 INFO     BW0    reached BW0 via BW0
+2019-11-25 09:48:20 INFO     BW0    reached BW1 via BW1
+2019-11-25 09:48:21 INFO     BW0    reached BX via BX
+2019-11-25 10:51:49 INFO     BW0    can reach ip fde4::1 of AS64512
+2019-11-25 10:51:49 INFO     BW0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 10:51:50 INFO     BW0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 10:52:01 ERROR    BW0    cannot reach ip fde4:4:f000:22::1 of AS65004
+2019-11-25 10:52:02 INFO     BW0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 10:59:45 INFO     BW0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 10:59:55 ERROR    BW0    cannot reach ip fde4:4:f000:22::1 of AS65004
+2019-11-25 10:59:56 INFO     BW0    can reach ip fde4::1 of AS64512
+2019-11-25 10:59:56 INFO     BW0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 10:59:57 INFO     BW0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:05:57 INFO     BW0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:05:58 INFO     BW0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:05:58 INFO     BW0    can reach ip fde4::1 of AS64512
+2019-11-25 11:05:59 INFO     BW0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:06:00 INFO     BW0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:07:24 INFO     BW0    can reach ip fde4::1 of AS64512
+2019-11-25 11:07:25 INFO     BW0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:07:25 INFO     BW0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:07:26 INFO     BW0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:07:27 INFO     BW0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:31 INFO     BW0    can reach ip fde4::1 of AS64512
+2019-11-25 11:10:32 INFO     BW0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:33 INFO     BW0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:10:34 INFO     BW0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:10:34 INFO     BW0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:10:46 INFO     BW0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:10:47 INFO     BW0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:10:47 INFO     BW0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:48 INFO     BW0    can reach ip fde4::1 of AS64512
+2019-11-25 11:10:49 INFO     BW0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:14:32 INFO     BW0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:14:33 INFO     BW0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:14:34 INFO     BW0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:14:34 INFO     BW0    can reach ip fde4::1 of AS64512
+2019-11-25 11:14:35 INFO     BW0    can reach ip fde4:9::1:caf9 of AS65009

@@ -37,13 +37,13 @@ class OSPF:
                 if hops != expected[0]:
                     Logger.get_logger(router1["name"]).warning('reached {router2} via {real_path} instead of {name_expected_path}'.format(
                         router2=router2["name"],
-                        real_path=' -> '.join(map(lambda x: dns[x]['name'], hops)),
+                        real_path=' -> '.join(map(lambda x: dns.get(x, {'name': x})['name'], hops)),
                         name_expected_path=' -> '.join(expected[1])
                     ))
                 else:
                     Logger.get_logger(router1["name"]).info('reached {router2} via {real_path}'.format(
                         router2=router2["name"],
-                        real_path=' -> '.join(map(lambda x: dns[x]['name'], hops))
+                        real_path=' -> '.join(map(lambda x: dns.get(x, {'name': x})['name'], hops))
                     ))
                 
             child.sendline('exit')
@@ -124,34 +124,44 @@ class OSPF:
 
         for i in range(amount):
             interface, router1, router2 = OSPF.get_random_interface_link_pair()
-
             weight = graph[router1][router2]['weight']
-            graph.remove_edge(router1, router2)
+            try:
+                
+                graph.remove_edge(router1, router2)
 
-            child = pexpect.spawn('sudo ../connect_to.sh project_config ' + dns[router1]["name"])
-            child.expect("bash-4.3#")
-            child.sendline("ip link set dev " + interface + " down")
-            child.expect("bash-4.3#")
-            print("== Destroying interface "+ str(i+1)+"/"+str(amount) +": "+ interface, end='')
-            for j in range(10):
-                time.sleep(1)
-                print(".", end='')
-            print()
+                child = pexpect.spawn('sudo ../connect_to.sh project_config ' + dns[router1]["name"])
+                child.expect("bash-4.3#")
+                child.sendline("ip link set dev " + interface + " down")
+                child.expect("bash-4.3#")
+                print("== Destroying interface "+ str(i+1)+"/"+str(amount) +": "+ interface)
+                print("== Waiting 10s for OSPF to detect the failure", end="")
+                for j in range(10):
+                    time.sleep(1)
+                    print(".", end='')
+                print()
 
-            OSPF.traceroutes()
+                OSPF.traceroutes()
 
-            child = pexpect.spawn('sudo ../connect_to.sh project_config ' + dns[router1]["name"])
-            child.expect("bash-4.3#")
-            child.sendline("ip link set dev " + interface + " up")
-            child.expect("bash-4.3#")
-            print("== Reactivating interface "+ str(i+1)+"/"+str(amount) +": "+ interface, end='')
-            for j in range(10):
-                time.sleep(1)
-                print(".", end='')
-            print()
+                child = pexpect.spawn('sudo ../connect_to.sh project_config ' + dns[router1]["name"])
+                child.expect("bash-4.3#")
+                child.sendline("ip link set dev " + interface + " up")
+                child.expect("bash-4.3#")
+                print("== Reactivating interface "+ str(i+1)+"/"+str(amount) +": "+ interface)
+                print("== Waiting 30s for OSPF to detect the changes", end="")
+                for j in range(30):
+                    time.sleep(1)
+                    print(".", end='')
+                print()
 
-            graph.add_edge(router1, router2, weight=weight)
-
+                graph.add_edge(router1, router2, weight=weight)
+            except Exception as e:
+                Logger.get_logger(dns[router1]["name"]).error('an exception occured: {exception}'.format(
+                    exception=str(e)
+                ))
+                child = pexpect.spawn('sudo ../connect_to.sh project_config ' + dns[router1]["name"])
+                child.expect("bash-4.3#")
+                child.sendline("ip link set dev " + interface + " up")
+                child.expect("bash-4.3#")
 
 
     @staticmethod

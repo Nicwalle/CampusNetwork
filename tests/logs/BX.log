@@ -203,3 +203,188 @@
 2019-11-24 15:04:53 INFO     BX     reached BX via fde4:1:801::a (BX)
 2019-11-24 15:06:39 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
 2019-11-24 16:23:04 INFO     BX     can reach 11/11 routers of the core network
+2019-11-24 21:02:49 INFO     BX     can reach 11/11 routers of the core network
+2019-11-24 21:04:54 INFO     BX     reached P0 via BW0 -> P0
+2019-11-24 21:04:55 INFO     BX     reached P1 via BW1 -> P1
+2019-11-24 21:04:56 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-24 21:04:57 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-24 21:04:58 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-24 21:04:59 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-24 21:05:00 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-24 21:05:02 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-24 21:05:03 INFO     BX     reached BW0 via BW0
+2019-11-24 21:05:04 INFO     BX     reached BW1 via BW1
+2019-11-24 21:05:05 INFO     BX     reached BX via BX
+2019-11-24 21:07:18 INFO     BX     reached P0 via BW0 -> P0
+2019-11-24 21:07:19 INFO     BX     reached P1 via BW1 -> P1
+2019-11-24 21:07:20 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-24 21:07:21 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-24 21:07:22 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-24 21:07:24 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-24 21:07:25 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-24 21:07:26 INFO     BX     reached LG1 via BW0 -> P0 -> LG0 -> LG1
+2019-11-24 21:07:27 INFO     BX     reached BW0 via BW0
+2019-11-24 21:07:28 INFO     BX     reached BW1 via BW1
+2019-11-24 21:07:29 INFO     BX     reached BX via BX
+2019-11-24 21:09:52 INFO     BX     reached P0 via BW0 -> P0
+2019-11-24 21:09:53 INFO     BX     reached P1 via BW1 -> P1
+2019-11-24 21:09:54 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-24 21:09:55 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-24 21:09:56 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-24 21:09:58 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-24 21:09:59 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-24 21:10:00 INFO     BX     reached LG1 via BW0 -> P0 -> LG0 -> LG1
+2019-11-24 21:10:01 INFO     BX     reached BW0 via BW0
+2019-11-24 21:10:02 INFO     BX     reached BW1 via BW1
+2019-11-24 21:10:03 INFO     BX     reached BX via BX
+2019-11-24 21:12:26 INFO     BX     reached P0 via BW0 -> P0
+2019-11-24 21:12:27 INFO     BX     reached P1 via BW1 -> P1
+2019-11-24 21:12:28 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-24 21:12:29 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-24 21:12:30 INFO     BX     reached NAM0 via BW1 -> P1 -> NAM1 -> NAM0
+2019-11-24 21:12:31 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-24 21:12:32 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-24 21:12:33 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-24 21:12:35 INFO     BX     reached BW0 via BW0
+2019-11-24 21:12:36 INFO     BX     reached BW1 via BW1
+2019-11-24 21:12:37 INFO     BX     reached BX via BX
+2019-11-24 21:13:18 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-24 23:10:21 INFO     BX     can reach 11/11 routers of the core network
+2019-11-24 23:12:25 INFO     BX     reached P0 via BW0 -> P0
+2019-11-24 23:12:26 INFO     BX     reached P1 via BW1 -> P1
+2019-11-24 23:12:27 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-24 23:12:28 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-24 23:12:29 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-24 23:12:30 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-24 23:12:31 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-24 23:12:32 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-24 23:12:34 INFO     BX     reached BW0 via BW0
+2019-11-24 23:12:35 INFO     BX     reached BW1 via BW1
+2019-11-24 23:12:36 INFO     BX     reached BX via BX
+2019-11-24 23:14:48 INFO     BX     reached P0 via BW0 -> P0
+2019-11-24 23:14:49 INFO     BX     reached P1 via BW1 -> P1
+2019-11-24 23:14:50 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-24 23:14:51 INFO     BX     reached LUX1 via BW0 -> P0 -> LUX0 -> LUX1
+2019-11-24 23:14:52 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-24 23:14:53 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-24 23:14:54 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-24 23:14:55 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-24 23:14:57 INFO     BX     reached BW0 via BW0
+2019-11-24 23:14:58 INFO     BX     reached BW1 via BW1
+2019-11-24 23:14:59 INFO     BX     reached BX via BX
+2019-11-24 23:15:37 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 09:12:40 INFO     BX     can reach 11/11 routers of the core network
+2019-11-25 09:32:07 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 09:34:33 INFO     BX     reached P0 via BW0 -> P0
+2019-11-25 09:34:34 INFO     BX     reached P1 via BW1 -> P1
+2019-11-25 09:34:35 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-25 09:34:36 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-25 09:34:37 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-25 09:34:38 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-25 09:34:39 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-25 09:34:40 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-25 09:34:41 INFO     BX     reached BW0 via BW0
+2019-11-25 09:34:42 INFO     BX     reached BW1 via BW1
+2019-11-25 09:34:43 INFO     BX     reached BX via BX
+2019-11-25 09:36:56 INFO     BX     reached P0 via BW0 -> P0
+2019-11-25 09:36:58 INFO     BX     reached P1 via BW1 -> P1
+2019-11-25 09:36:59 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-25 09:37:00 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-25 09:37:01 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-25 09:37:02 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-25 09:37:03 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-25 09:37:04 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-25 09:37:05 INFO     BX     reached BW0 via BW0
+2019-11-25 09:37:06 INFO     BX     reached BW1 via BW1
+2019-11-25 09:37:07 INFO     BX     reached BX via BX
+2019-11-25 09:39:51 INFO     BX     reached P0 via BW0 -> P0
+2019-11-25 09:39:52 INFO     BX     reached P1 via BW1 -> P1
+2019-11-25 09:39:53 INFO     BX     reached LUX0 via BW1 -> P1 -> LUX1 -> LUX0
+2019-11-25 09:39:55 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-25 09:39:56 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-25 09:39:57 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-25 09:39:58 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-25 09:39:59 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-25 09:40:00 INFO     BX     reached BW0 via BW0
+2019-11-25 09:40:01 INFO     BX     reached BW1 via BW1
+2019-11-25 09:40:02 INFO     BX     reached BX via BX
+2019-11-25 09:42:46 INFO     BX     reached P0 via BW0 -> P0
+2019-11-25 09:42:47 INFO     BX     reached P1 via BW1 -> P1
+2019-11-25 09:42:48 INFO     BX     reached LUX0 via BW1 -> P1 -> LUX1 -> LUX0
+2019-11-25 09:42:49 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-25 09:42:50 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-25 09:42:51 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-25 09:42:52 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-25 09:42:53 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-25 09:42:54 INFO     BX     reached BW0 via BW0
+2019-11-25 09:42:55 INFO     BX     reached BW1 via BW1
+2019-11-25 09:42:57 INFO     BX     reached BX via BX
+2019-11-25 09:45:40 INFO     BX     reached P0 via BW0 -> P0
+2019-11-25 09:45:42 INFO     BX     reached P1 via BW1 -> P1
+2019-11-25 09:45:43 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-25 09:45:44 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-25 09:45:45 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-25 09:45:46 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-25 09:45:47 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-25 09:45:48 INFO     BX     reached LG1 via BW0 -> P0 -> LG0 -> LG1
+2019-11-25 09:45:49 INFO     BX     reached BW0 via BW0
+2019-11-25 09:45:50 INFO     BX     reached BW1 via BW1
+2019-11-25 09:45:51 INFO     BX     reached BX via BX
+2019-11-25 09:48:35 INFO     BX     reached P0 via BW0 -> P0
+2019-11-25 09:48:36 INFO     BX     reached P1 via BW1 -> P1
+2019-11-25 09:48:37 INFO     BX     reached LUX0 via BW0 -> P0 -> LUX0
+2019-11-25 09:48:38 INFO     BX     reached LUX1 via BW1 -> P1 -> LUX1
+2019-11-25 09:48:39 INFO     BX     reached NAM0 via BW0 -> P0 -> NAM0
+2019-11-25 09:48:40 INFO     BX     reached NAM1 via BW1 -> P1 -> NAM1
+2019-11-25 09:48:41 INFO     BX     reached LG0 via BW0 -> P0 -> LG0
+2019-11-25 09:48:42 INFO     BX     reached LG1 via BW1 -> P1 -> LG1
+2019-11-25 09:48:43 INFO     BX     reached BW0 via BW0
+2019-11-25 09:48:44 INFO     BX     reached BW1 via BW1
+2019-11-25 09:48:45 INFO     BX     reached BX via BX
+2019-11-25 10:18:48 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 10:31:43 ERROR    BX     has no active eBGP session with AS65009 on IP fde4:9::1:caf9. (State is Connect)
+2019-11-25 10:32:09 ERROR    BX     has no active eBGP session with AS65009 on IP fde4:9::1:caf9. (State is Connect)
+2019-11-25 10:43:32 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 10:49:12 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 10:49:52 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 10:52:15 INFO     BX     can reach ip fde4::1 of AS64512
+2019-11-25 10:52:16 INFO     BX     can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 10:52:17 INFO     BX     can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 10:52:27 ERROR    BX     cannot reach ip fde4:4:f000:22::1 of AS65004
+2019-11-25 10:52:28 INFO     BX     can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 10:57:27 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 11:00:11 INFO     BX     can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:00:22 ERROR    BX     cannot reach ip fde4:4:f000:22::1 of AS65004
+2019-11-25 11:00:23 INFO     BX     can reach ip fde4::1 of AS64512
+2019-11-25 11:00:23 INFO     BX     can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:00:24 INFO     BX     can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:05:01 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 11:06:03 INFO     BX     can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:06:04 INFO     BX     can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:06:05 INFO     BX     can reach ip fde4::1 of AS64512
+2019-11-25 11:06:05 INFO     BX     can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:06:06 INFO     BX     can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:06:26 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 11:07:30 INFO     BX     can reach ip fde4::1 of AS64512
+2019-11-25 11:07:31 INFO     BX     can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:07:31 INFO     BX     can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:07:32 INFO     BX     can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:07:33 INFO     BX     can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:09:32 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 11:09:46 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 11:10:38 INFO     BX     can reach ip fde4::1 of AS64512
+2019-11-25 11:10:39 INFO     BX     can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:39 INFO     BX     can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:10:40 INFO     BX     can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:10:40 INFO     BX     can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:10:52 INFO     BX     can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:10:53 INFO     BX     can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:10:54 INFO     BX     can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:55 INFO     BX     can reach ip fde4::1 of AS64512
+2019-11-25 11:10:55 INFO     BX     can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:13:35 INFO     BX     has an active eBGP session with AS65009 (fde4:9::1:caf9) on interface BX-eth2
+2019-11-25 11:14:39 INFO     BX     can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:14:39 INFO     BX     can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:14:40 INFO     BX     can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:14:41 INFO     BX     can reach ip fde4::1 of AS64512
+2019-11-25 11:14:41 INFO     BX     can reach ip fde4:9::1:caf9 of AS65009

@@ -18,6 +18,10 @@ sysctl -w net.ipv6.conf.default.forwarding=1
         ## drop BGP packets (BGP : TCP on port 179) that we are asked to forward
         ip6tables -A FORWARD -i ${router["name"]}-eth${interface["number"]} -p tcp --destination-port 179
 
+        ## Link-Local Addresses should not be received from other ASes
+        ip6tables -A INPUT -i ${router["name"]}-eth${interface["number"]} -s fe80::/10 -j DROP
+        
+
     % endif
 % endfor
 
@@ -28,6 +32,12 @@ ip6tables -A INPUT -p 89 -j DROP ## drop OSPF packets by default
 
 ## Unspecified, may only be used as a source addr by an initialising host before it has learned its own address 
 ip6tables -A FORWARD -d ::/128 -j DROP
+
+## ULAs, not public address space, should be forwarded and shouldn't be the source or destination address
+ip6tables -A INPUT -s fc00::/7 -j DROP 
+ip6tables -A FORWARD -s fc00::/7 -j DROP 
+ip6tables -A INPUT -d fc00::/7 -j DROP 
+ip6tables -A FORWARD -d fc00::/7 -j DROP 
 
 ## Benchmarking addresses
 ip6tables -A INPUT -s 2001:0002::/48 -j DROP 

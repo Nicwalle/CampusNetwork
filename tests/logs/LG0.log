@@ -205,3 +205,190 @@
 2019-11-24 15:06:36 ERROR    LG0    has no active eBGP session with AS65004 on IP fde4:1:600::4:bbbb. (State is Connect)
 2019-11-24 15:08:07 INFO     LG0    can reach 11/11 routers of the core network
 2019-11-24 16:22:57 INFO     LG0    can reach 11/11 routers of the core network
+2019-11-24 21:02:42 INFO     LG0    can reach 11/11 routers of the core network
+2019-11-24 21:04:06 INFO     LG0    reached P0 via P0
+2019-11-24 21:04:07 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-24 21:04:08 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-24 21:04:09 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 21:04:10 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-24 21:04:11 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:04:12 INFO     LG0    reached LG0 via LG0
+2019-11-24 21:04:13 INFO     LG0    reached LG1 via LG1
+2019-11-24 21:04:14 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-24 21:04:15 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 21:04:16 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-24 21:06:30 INFO     LG0    reached P0 via P0
+2019-11-24 21:06:31 INFO     LG0    reached P1 via P0 -> P1
+2019-11-24 21:06:32 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-24 21:06:33 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 21:06:34 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-24 21:06:35 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:06:36 INFO     LG0    reached LG0 via LG0
+2019-11-24 21:06:37 INFO     LG0    reached LG1 via LG1
+2019-11-24 21:06:38 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-24 21:06:39 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 21:06:40 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-24 21:09:04 INFO     LG0    reached P0 via P0
+2019-11-24 21:09:05 INFO     LG0    reached P1 via P0 -> P1
+2019-11-24 21:09:06 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-24 21:09:07 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 21:09:08 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-24 21:09:09 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 21:09:10 INFO     LG0    reached LG0 via LG0
+2019-11-24 21:09:11 INFO     LG0    reached LG1 via LG1
+2019-11-24 21:09:12 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-24 21:09:13 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 21:09:15 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-24 21:11:38 INFO     LG0    reached P0 via P0
+2019-11-24 21:11:39 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-24 21:11:40 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-24 21:11:41 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 21:11:42 INFO     LG0    reached NAM0 via LG1 -> P1 -> NAM1 -> NAM0
+2019-11-24 21:11:43 INFO     LG0    reached NAM1 via LG1 -> P1 -> NAM1
+2019-11-24 21:11:44 INFO     LG0    reached LG0 via LG0
+2019-11-24 21:11:45 INFO     LG0    reached LG1 via LG1
+2019-11-24 21:11:46 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-24 21:11:47 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 21:11:48 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-24 21:13:14 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-24 23:10:13 INFO     LG0    can reach 11/11 routers of the core network
+2019-11-24 23:11:37 INFO     LG0    reached P0 via P0
+2019-11-24 23:11:38 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-24 23:11:39 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-24 23:11:40 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 23:11:41 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-24 23:11:42 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 23:11:43 INFO     LG0    reached LG0 via LG0
+2019-11-24 23:11:44 INFO     LG0    reached LG1 via LG1
+2019-11-24 23:11:45 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-24 23:11:46 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 23:11:47 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-24 23:14:00 INFO     LG0    reached P0 via P0
+2019-11-24 23:14:01 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-24 23:14:02 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-24 23:14:03 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-24 23:14:04 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-24 23:14:05 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-24 23:14:06 INFO     LG0    reached LG0 via LG0
+2019-11-24 23:14:07 INFO     LG0    reached LG1 via LG1
+2019-11-24 23:14:08 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-24 23:14:09 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-24 23:14:11 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-24 23:15:35 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 09:12:33 INFO     LG0    can reach 11/11 routers of the core network
+2019-11-25 09:32:03 ERROR    LG0    has no active eBGP session with AS65004 on IP fde4:1:600::4:bbbb. (State is Connect)
+2019-11-25 09:33:44 INFO     LG0    reached P0 via P0
+2019-11-25 09:33:45 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-25 09:33:47 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-25 09:33:48 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-25 09:33:49 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:33:50 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:33:51 INFO     LG0    reached LG0 via LG0
+2019-11-25 09:33:52 INFO     LG0    reached LG1 via LG1
+2019-11-25 09:33:53 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-25 09:33:54 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:33:55 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-25 09:36:08 INFO     LG0    reached P0 via P0
+2019-11-25 09:36:09 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-25 09:36:10 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-25 09:36:11 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-25 09:36:12 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:36:13 INFO     LG0    reached NAM1 via LG1 -> P1 -> NAM1
+2019-11-25 09:36:14 INFO     LG0    reached LG0 via LG0
+2019-11-25 09:36:15 INFO     LG0    reached LG1 via LG1
+2019-11-25 09:36:16 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-25 09:36:17 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:36:18 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-25 09:39:03 INFO     LG0    reached P0 via P0
+2019-11-25 09:39:04 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-25 09:39:05 INFO     LG0    reached LUX0 via LG1 -> P1 -> LUX1 -> LUX0
+2019-11-25 09:39:06 INFO     LG0    reached LUX1 via LG1 -> P1 -> LUX1
+2019-11-25 09:39:07 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:39:08 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:39:09 INFO     LG0    reached LG0 via LG0
+2019-11-25 09:39:10 INFO     LG0    reached LG1 via LG1
+2019-11-25 09:39:11 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-25 09:39:12 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:39:14 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-25 09:41:57 INFO     LG0    reached P0 via P0
+2019-11-25 09:41:58 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-25 09:41:59 INFO     LG0    reached LUX0 via LG1 -> P1 -> LUX1 -> LUX0
+2019-11-25 09:42:01 INFO     LG0    reached LUX1 via LG1 -> P1 -> LUX1
+2019-11-25 09:42:02 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:42:03 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:42:04 INFO     LG0    reached LG0 via LG0
+2019-11-25 09:42:05 INFO     LG0    reached LG1 via LG1
+2019-11-25 09:42:06 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-25 09:42:07 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:42:08 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-25 09:44:52 INFO     LG0    reached P0 via P0
+2019-11-25 09:44:53 INFO     LG0    reached P1 via P0 -> P1
+2019-11-25 09:44:54 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-25 09:44:55 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-25 09:44:56 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:44:57 INFO     LG0    reached NAM1 via P0 -> NAM0 -> NAM1
+2019-11-25 09:44:58 INFO     LG0    reached LG0 via LG0
+2019-11-25 09:44:59 INFO     LG0    reached LG1 via LG1
+2019-11-25 09:45:00 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-25 09:45:01 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:45:02 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-25 09:47:47 INFO     LG0    reached P0 via P0
+2019-11-25 09:47:48 INFO     LG0    reached P1 via LG1 -> P1
+2019-11-25 09:47:49 INFO     LG0    reached LUX0 via P0 -> LUX0
+2019-11-25 09:47:50 INFO     LG0    reached LUX1 via P0 -> LUX0 -> LUX1
+2019-11-25 09:47:51 INFO     LG0    reached NAM0 via P0 -> NAM0
+2019-11-25 09:47:52 INFO     LG0    reached NAM1 via LG1 -> P1 -> NAM1
+2019-11-25 09:47:53 INFO     LG0    reached LG0 via LG0
+2019-11-25 09:47:54 INFO     LG0    reached LG1 via LG1
+2019-11-25 09:47:55 INFO     LG0    reached BW0 via P0 -> BW0
+2019-11-25 09:47:56 INFO     LG0    reached BW1 via P0 -> BW0 -> BW1
+2019-11-25 09:47:57 INFO     LG0    reached BX via P0 -> BW0 -> BX
+2019-11-25 10:18:43 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 10:31:37 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 10:32:05 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 10:43:28 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 10:49:07 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 10:49:47 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 10:51:22 INFO     LG0    can reach ip fde4::1 of AS64512
+2019-11-25 10:51:23 INFO     LG0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 10:51:24 INFO     LG0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 10:51:34 ERROR    LG0    cannot reach ip fde4:4:f000:22::1 of AS65004
+2019-11-25 10:51:35 INFO     LG0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 10:57:23 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 10:58:58 INFO     LG0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 10:59:09 ERROR    LG0    cannot reach ip fde4:4:f000:22::1 of AS65004
+2019-11-25 10:59:19 ERROR    LG0    cannot reach ip fde4::1 of AS64512
+2019-11-25 10:59:20 INFO     LG0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 10:59:21 INFO     LG0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:04:56 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 11:05:42 INFO     LG0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:05:42 INFO     LG0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:05:43 INFO     LG0    can reach ip fde4::1 of AS64512
+2019-11-25 11:05:43 INFO     LG0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:05:44 INFO     LG0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:06:21 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 11:07:08 INFO     LG0    can reach ip fde4::1 of AS64512
+2019-11-25 11:07:08 INFO     LG0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:07:09 INFO     LG0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:07:10 INFO     LG0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:07:10 INFO     LG0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:09:28 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 11:09:42 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 11:10:13 INFO     LG0    can reach ip fde4::1 of AS64512
+2019-11-25 11:10:14 INFO     LG0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:15 INFO     LG0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:10:16 INFO     LG0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:10:17 INFO     LG0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:10:30 INFO     LG0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:10:30 INFO     LG0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:10:31 INFO     LG0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:10:32 INFO     LG0    can reach ip fde4::1 of AS64512
+2019-11-25 11:10:33 INFO     LG0    can reach ip fde4:9::1:caf9 of AS65009
+2019-11-25 11:12:27 ERROR    LG0    has no active iBGP session with AS65001 on IP fde4:1::1. (State is Active)
+2019-11-25 11:12:27 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 11:13:30 INFO     LG0    has an active eBGP session with AS65004 (fde4:1:600::4:bbbb) on interface LG0-eth2
+2019-11-25 11:14:15 INFO     LG0    can reach ip fde4:5:3000:1::5 of AS65005
+2019-11-25 11:14:16 INFO     LG0    can reach ip fde4:3::3:aaaa of AS65003
+2019-11-25 11:14:17 INFO     LG0    can reach ip fde4:4:f000:1::e of AS65004
+2019-11-25 11:14:18 INFO     LG0    can reach ip fde4::1 of AS64512
+2019-11-25 11:14:18 INFO     LG0    can reach ip fde4:9::1:caf9 of AS65009

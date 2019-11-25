@@ -156,7 +156,8 @@
                         "relationship": "provider",
                         "community": "garbage",
                         "input-whitelist": [],
-                        "output-whitelist": []
+                        "output-whitelist": [],
+                        "ping-ips": ["fde4::1"]
                     },
                     {
                         "type": "external",
@@ -165,6 +166,7 @@
                         "prefixes": ["fde4:1::/32"],
                         "interface-number": 6,
                         "relationship": "provider",
+                        "community": "provider",
                         "input-whitelist": [],
                         "output-whitelist": ["fde4:1::/32","fde4:3::/32","fde4:9::/32"]
                     }
@@ -316,9 +318,11 @@
                         "prefixes": ["fde4:1::/32"],
                         "interface-number": 5,
                         "relationship":"peer",
+                        "community":"sharedCost",
                         "input-whitelist": [],
                         "output-whitelist":["fde4:1::/32", "fde4:9::/32", "fde4:3::"],
-                        "MD5_password": "ASes6500165005"
+                        "MD5_password": "ASes6500165005",
+                        "ping-ips": ["fde4:5:3000:1::5"]
                     }
                 ]
             }
@@ -476,8 +480,11 @@
                         "prefixes": ["fde4:1::/32"],
                         "interface-number": 2,
                         "relationship":"client",
+                        "community":"customer",
                         "input-whitelist": ["fde4:3::/32","fde4:1:400::/48"],
-                        "output-whitelist": []
+                        "output-whitelist": [],
+                        "MD5_password": "2142AS6500165003",
+                        "ping-ips": ["fde4:3::3:aaaa"]
                     }   
                 ]
             }
@@ -587,8 +594,11 @@
                         "prefixes": ["fde4:1::/32"],
                         "interface-number": 2,
                         "relationship":"client",
-                        "input-whitelist": ["fde4:4::/32"],
-                        "output-whitelist": ["fde4:1::/32", "fde4:3::/32", "fde4:9::/32"]
+                        "community":"sharedCost",
+                        "input-whitelist": [],
+                        "output-whitelist": ["fde4:1::/32", "fde4:3::/32", "fde4:9::/32"],
+                        "MD5_password" : "lingi2142gr1gr4",
+                        "ping-ips": ["fde4:4:f000:1::e"]
                     }   
                 ]
             }
@@ -828,8 +838,11 @@
                         "prefixes": ["fde4:1::/32"],
                         "interface-number": 2,
                         "relationship":"client",
+                        "community":"customer",
                         "input-whitelist": ["fde4:1:801::/56", "fde4:9::/32"],
-                        "output-whitelist": []
+                        "output-whitelist": [],
+                        "MD5_password" : "Networks6500165009",
+                        "ping-ips": ["fde4:9::1:caf9"]
                     }                       
                 ]
             }

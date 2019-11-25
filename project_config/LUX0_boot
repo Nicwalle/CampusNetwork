@@ -2,3 +2,31 @@
 
 sysctl -w net.ipv6.conf.all.forwarding=1
 sysctl -w net.ipv6.conf.default.forwarding=1
+
+        ip6tables -A INPUT -i LUX0-eth0 -p 89 -j ACCEPT
+        ip6tables -A INPUT -i LUX0-eth1 -p 89 -j ACCEPT
+
+ip6tables -A INPUT -p 89 -j DROP ## drop OSPF packets by default
+
+
+
+ip6tables -A FORWARD -d ::/128 -j DROP
+
+ip6tables -A INPUT -s 2001:0002::/48 -j DROP 
+ip6tables -A FORWARD -s 2001:0002::/48 -j DROP 
+ip6tables -A INPUT -d 2001:0002::/48 -j DROP 
+ip6tables -A FORWARD -d 2001:0002::/48 -j DROP 
+
+ip6tables -A INPUT -s 2001:0010::/28 -j DROP 
+ip6tables -A FORWARD -s 2001:0010::/28 -j DROP 
+ip6tables -A INPUT -d 2001:0010::/28 -j DROP 
+ip6tables -A FORWARD -d 2001:0010::/28 -j DROP 
+
+ip6tables -A INPUT -s 2001:db8::/32 -j DROP 
+ip6tables -A FORWARD -s 2001:db8::/32 -j DROP 
+ip6tables -A INPUT -d 2001:db8::/32 -j DROP 
+ip6tables -A FORWARD -d 2001:db8::/32 -j DROP 
+
+ip6tables -A INPUT -s ff00::/8 -j DROP 
+ip6tables -A FORWARD -s ff00::/8 -j DROP
+
