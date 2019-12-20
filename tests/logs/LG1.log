@@ -493,3 +493,59 @@
 2019-11-25 14:30:40 INFO     LG1    can reach ip fde4::1 of AS64512
 2019-11-25 14:30:50 ERROR    LG1    cannot reach ip fde4:9::1:caf9 of AS65009
 2019-11-25 14:30:51 INFO     LG1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-19 20:46:24 INFO     LG1    can reach 11/11 routers of the core network
+2019-12-19 20:48:00 INFO     LG1    reached P0 via LG0 -> P0
+2019-12-19 20:48:01 INFO     LG1    reached P1 via P1
+2019-12-19 20:48:02 INFO     LG1    reached LUX0 via LG0 -> P0 -> LUX0
+2019-12-19 20:48:03 INFO     LG1    reached LUX1 via P1 -> LUX1
+2019-12-19 20:48:04 INFO     LG1    reached NAM0 via LG0 -> P0 -> NAM0
+2019-12-19 20:48:05 INFO     LG1    reached NAM1 via P1 -> NAM1
+2019-12-19 20:48:06 INFO     LG1    reached LG0 via LG0
+2019-12-19 20:48:07 INFO     LG1    reached LG1 via LG1
+2019-12-19 20:48:08 INFO     LG1    reached BW0 via LG0 -> P0 -> BW0
+2019-12-19 20:48:09 INFO     LG1    reached BW1 via P1 -> BW1
+2019-12-19 20:48:10 INFO     LG1    reached BX via P1 -> BW1 -> BX
+2019-12-19 20:50:23 INFO     LG1    reached P0 via LG0 -> P0
+2019-12-19 20:50:24 INFO     LG1    reached P1 via P1
+2019-12-19 20:50:25 INFO     LG1    reached LUX0 via LG0 -> P0 -> LUX0
+2019-12-19 20:50:26 INFO     LG1    reached LUX1 via P1 -> LUX1
+2019-12-19 20:50:28 INFO     LG1    reached NAM0 via LG0 -> P0 -> NAM0
+2019-12-19 20:50:29 INFO     LG1    reached NAM1 via P1 -> NAM1
+2019-12-19 20:50:30 INFO     LG1    reached LG0 via LG0
+2019-12-19 20:50:31 INFO     LG1    reached LG1 via LG1
+2019-12-19 20:50:32 INFO     LG1    reached BW0 via LG0 -> P0 -> BW0
+2019-12-19 20:50:33 INFO     LG1    reached BW1 via P1 -> BW1
+2019-12-19 20:50:34 INFO     LG1    reached BX via P1 -> BW1 -> BX
+2019-12-20 14:16:14 INFO     LG1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:16:15 INFO     LG1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:16:16 INFO     LG1    can reach ip fde4::1 of AS64512
+2019-12-20 14:16:16 INFO     LG1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:16:17 INFO     LG1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:18:25 INFO     LG1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:18:27 INFO     LG1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:18:27 INFO     LG1    can reach ip fde4::1 of AS64512
+2019-12-20 14:18:28 INFO     LG1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:18:29 INFO     LG1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:39:47 INFO     LG1    can reach 11/11 routers of the core network
+2019-12-20 14:41:10 INFO     LG1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:41:10 INFO     LG1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:41:11 INFO     LG1    can reach ip fde4::1 of AS64512
+2019-12-20 14:41:12 INFO     LG1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:41:12 INFO     LG1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:23 INFO     LG1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:54:24 INFO     LG1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:54:24 INFO     LG1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:54:25 INFO     LG1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:25 INFO     LG1    can reach ip fde4::1 of AS64512
+2019-12-20 17:26:45 INFO     LG1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:26:46 INFO     LG1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:26:47 INFO     LG1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:26:57 ERROR    LG1    cannot reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:26:58 INFO     LG1    can reach ip fde4::1 of AS64512
+2019-12-20 17:30:18 INFO     LG1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:35:02 ERROR    LG1    cannot reach ip fde4:2:1::2:bace of AS65002
+2019-12-20 17:35:03 INFO     LG1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:35:03 INFO     LG1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:35:04 INFO     LG1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:35:04 INFO     LG1    can reach ip fde4::1 of AS64512
+2019-12-20 17:35:05 INFO     LG1    can reach ip fde4:9::1:caf9 of AS65009

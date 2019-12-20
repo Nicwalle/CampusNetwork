@@ -549,3 +549,72 @@
 2019-11-25 14:29:39 INFO     NAM0   can reach ip fde4::1 of AS64512
 2019-11-25 14:29:40 INFO     NAM0   can reach ip fde4:9::1:caf9 of AS65009
 2019-11-25 14:29:41 INFO     NAM0   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-19 20:46:19 INFO     NAM0   can reach 11/11 routers of the core network
+2019-12-19 20:47:24 INFO     NAM0   reached P0 via P0
+2019-12-19 20:47:25 INFO     NAM0   reached P1 via NAM1 -> P1
+2019-12-19 20:47:26 INFO     NAM0   reached LUX0 via P0 -> LUX0
+2019-12-19 20:47:27 INFO     NAM0   reached LUX1 via P0 -> LUX0 -> LUX1
+2019-12-19 20:47:28 INFO     NAM0   reached NAM0 via NAM0
+2019-12-19 20:47:29 INFO     NAM0   reached NAM1 via NAM1
+2019-12-19 20:47:30 INFO     NAM0   reached LG0 via P0 -> LG0
+2019-12-19 20:47:31 INFO     NAM0   reached LG1 via P0 -> LG0 -> LG1
+2019-12-19 20:47:32 INFO     NAM0   reached BW0 via P0 -> BW0
+2019-12-19 20:47:33 INFO     NAM0   reached BW1 via P0 -> BW0 -> BW1
+2019-12-19 20:47:34 INFO     NAM0   reached BX via P0 -> BW0 -> BX
+2019-12-19 20:49:47 INFO     NAM0   reached P0 via P0
+2019-12-19 20:49:48 INFO     NAM0   reached P1 via NAM1 -> P1
+2019-12-19 20:49:49 INFO     NAM0   reached LUX0 via P0 -> LUX0
+2019-12-19 20:49:50 INFO     NAM0   reached LUX1 via P0 -> LUX0 -> LUX1
+2019-12-19 20:49:51 INFO     NAM0   reached NAM0 via NAM0
+2019-12-19 20:49:52 INFO     NAM0   reached NAM1 via NAM1
+2019-12-19 20:49:53 INFO     NAM0   reached LG0 via P0 -> LG0
+2019-12-19 20:49:54 INFO     NAM0   reached LG1 via P0 -> LG0 -> LG1
+2019-12-19 20:49:55 INFO     NAM0   reached BW0 via P0 -> BW0
+2019-12-19 20:49:56 INFO     NAM0   reached BW1 via P0 -> BW0 -> BW1
+2019-12-19 20:49:57 INFO     NAM0   reached BX via P0 -> BW0 -> BX
+2019-12-20 14:15:26 INFO     NAM0   has an active eBGP session with AS65003 (fde4:3::3:aaaa) on interface NAM0-eth2
+2019-12-20 14:15:55 INFO     NAM0   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:15:56 INFO     NAM0   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:15:57 INFO     NAM0   can reach ip fde4::1 of AS64512
+2019-12-20 14:15:57 INFO     NAM0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:15:58 INFO     NAM0   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:17:35 INFO     NAM0   has an active eBGP session with AS65003 (fde4:3::3:aaaa) on interface NAM0-eth2
+2019-12-20 14:18:06 INFO     NAM0   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:18:07 INFO     NAM0   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:18:07 INFO     NAM0   can reach ip fde4::1 of AS64512
+2019-12-20 14:18:08 INFO     NAM0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:18:09 INFO     NAM0   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:39:40 INFO     NAM0   can reach 11/11 routers of the core network
+2019-12-20 14:40:09 INFO     NAM0   has an active eBGP session with AS65003 (fde4:3::3:aaaa) on interface NAM0-eth2
+2019-12-20 14:40:50 INFO     NAM0   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:40:51 INFO     NAM0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:40:51 INFO     NAM0   can reach ip fde4::1 of AS64512
+2019-12-20 14:40:52 INFO     NAM0   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:40:53 INFO     NAM0   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:53:52 INFO     NAM0   has an active eBGP session with AS65003 (fde4:3::3:aaaa) on interface NAM0-eth2
+2019-12-20 14:54:13 INFO     NAM0   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:54:14 INFO     NAM0   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:54:14 INFO     NAM0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:54:15 INFO     NAM0   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:16 INFO     NAM0   can reach ip fde4::1 of AS64512
+2019-12-20 17:26:16 INFO     NAM0   has an active eBGP session with AS65003 (fde4:3::3:aaaa) on interface NAM0-eth2
+2019-12-20 17:26:37 INFO     NAM0   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:26:37 INFO     NAM0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:26:38 INFO     NAM0   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:26:38 INFO     NAM0   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:26:39 INFO     NAM0   can reach ip fde4::1 of AS64512
+2019-12-20 17:28:33 INFO     NAM0   has an active eBGP session with AS65003 (fde4:3::3:aaaa) on interface NAM0-eth2
+2019-12-20 17:29:37 INFO     NAM0   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:29:37 INFO     NAM0   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:29:48 ERROR    NAM0   cannot reach ip fde4:2:0:cc::c of AS65002
+2019-12-20 17:29:49 INFO     NAM0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:29:49 INFO     NAM0   can reach ip fde4::1 of AS64512
+2019-12-20 17:29:50 INFO     NAM0   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:33:15 INFO     NAM0   has an active eBGP session with AS65003 (fde4:3::3:aaaa) on interface NAM0-eth2
+2019-12-20 17:34:19 ERROR    NAM0   cannot reach ip fde4:2:1::2:bace of AS65002
+2019-12-20 17:34:20 INFO     NAM0   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:34:21 INFO     NAM0   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:34:21 INFO     NAM0   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:34:22 INFO     NAM0   can reach ip fde4::1 of AS64512
+2019-12-20 17:34:23 INFO     NAM0   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:35:48 INFO     NAM0   has an active eBGP session with AS65003 (fde4:3::3:aaaa) on interface NAM0-eth2

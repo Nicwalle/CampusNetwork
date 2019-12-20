@@ -777,3 +777,103 @@
 2019-11-25 14:42:06 ERROR    P0     has no active iBGP session with AS65001 on IP fde4:1:800::9. (State is Active)
 2019-11-25 14:42:06 ERROR    P0     has no active eBGP session with AS64512 on IP fde4::1. (State is Active)
 2019-11-25 14:42:06 ERROR    P0     has no active eBGP session with AS65002 on IP fde4:2:1::2:bace. (State is Connect)
+2019-12-19 20:46:11 INFO     P0     can reach 11/11 routers of the core network
+2019-12-19 20:46:36 INFO     P0     reached P0 via P0
+2019-12-19 20:46:37 INFO     P0     reached P1 via P1
+2019-12-19 20:46:38 INFO     P0     reached LUX0 via LUX0
+2019-12-19 20:46:39 INFO     P0     reached LUX1 via LUX0 -> LUX1
+2019-12-19 20:46:40 INFO     P0     reached NAM0 via NAM0
+2019-12-19 20:46:41 INFO     P0     reached NAM1 via NAM0 -> NAM1
+2019-12-19 20:46:42 INFO     P0     reached LG0 via LG0
+2019-12-19 20:46:43 INFO     P0     reached LG1 via LG0 -> LG1
+2019-12-19 20:46:44 INFO     P0     reached BW0 via BW0
+2019-12-19 20:46:45 INFO     P0     reached BW1 via BW0 -> BW1
+2019-12-19 20:46:46 INFO     P0     reached BX via BW0 -> BX
+2019-12-19 20:48:58 INFO     P0     reached P0 via P0
+2019-12-19 20:48:59 WARNING  P0     reached P1 via LG0 -> LUX1 -> P1 instead of LUX0 -> LUX1 -> P1
+2019-12-19 20:49:00 INFO     P0     reached LUX0 via LUX0
+2019-12-19 20:49:02 INFO     P0     reached LUX1 via LUX0 -> LUX1
+2019-12-19 20:49:03 INFO     P0     reached NAM0 via NAM0
+2019-12-19 20:49:04 INFO     P0     reached NAM1 via NAM0 -> NAM1
+2019-12-19 20:49:05 INFO     P0     reached LG0 via LG0
+2019-12-19 20:49:06 INFO     P0     reached LG1 via LG0 -> LG1
+2019-12-19 20:49:07 INFO     P0     reached BW0 via BW0
+2019-12-19 20:49:08 INFO     P0     reached BW1 via BW0 -> BW1
+2019-12-19 20:49:09 INFO     P0     reached BX via BW0 -> BX
+2019-12-19 20:51:26 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-19 20:51:26 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:11:00 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 14:11:00 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:11:16 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 14:11:16 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:15:22 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 14:15:22 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:15:44 ERROR    P0     cannot reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:15:44 INFO     P0     can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:15:45 INFO     P0     can reach ip fde4::1 of AS64512
+2019-12-20 14:15:45 INFO     P0     can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:15:46 INFO     P0     can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:17:31 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 14:17:31 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:17:53 ERROR    P0     cannot reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:17:53 INFO     P0     can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:17:54 INFO     P0     can reach ip fde4::1 of AS64512
+2019-12-20 14:17:55 INFO     P0     can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:17:55 INFO     P0     can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:38:50 ERROR    P0     has no active iBGP session with AS65001 on IP fde4:1::1. (State is Connect)
+2019-12-20 14:38:50 ERROR    P0     has no active iBGP session with AS65001 on IP fde4:1:200::2. (State is Connect)
+2019-12-20 14:38:50 ERROR    P0     has no active iBGP session with AS65001 on IP fde4:1:200::3. (State is Connect)
+2019-12-20 14:38:50 ERROR    P0     has no active iBGP session with AS65001 on IP fde4:1:400::4. (State is Connect)
+2019-12-20 14:38:50 ERROR    P0     has no active iBGP session with AS65001 on IP fde4:1:400::5. (State is Connect)
+2019-12-20 14:38:50 ERROR    P0     has no active iBGP session with AS65001 on IP fde4:1:600::6. (State is Connect)
+2019-12-20 14:38:50 ERROR    P0     has no active iBGP session with AS65001 on IP fde4:1:600::7. (State is Connect)
+2019-12-20 14:38:50 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 14:38:50 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:39:31 INFO     P0     can reach 11/11 routers of the core network
+2019-12-20 14:39:35 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 14:39:35 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:40:04 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 14:40:04 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:40:27 ERROR    P0     cannot reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:40:28 INFO     P0     can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:40:29 INFO     P0     can reach ip fde4::1 of AS64512
+2019-12-20 14:40:29 INFO     P0     can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:40:30 INFO     P0     can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:50:46 INFO     P0     can reach 11/11 routers of the core network
+2019-12-20 14:53:48 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 14:53:48 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 14:54:00 INFO     P0     can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:54:00 INFO     P0     can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:54:01 INFO     P0     can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:54:02 INFO     P0     can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:02 INFO     P0     can reach ip fde4::1 of AS64512
+2019-12-20 17:26:12 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 17:26:12 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 17:26:24 INFO     P0     can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:26:24 INFO     P0     can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:26:25 INFO     P0     can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:26:26 INFO     P0     can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:26:27 INFO     P0     can reach ip fde4::1 of AS64512
+2019-12-20 17:28:28 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 17:28:28 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 17:28:40 INFO     P0     can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:28:41 INFO     P0     can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:28:51 ERROR    P0     cannot reach ip fde4:2:0:cc::c of AS65002
+2019-12-20 17:28:52 INFO     P0     can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:28:53 INFO     P0     can reach ip fde4::1 of AS64512
+2019-12-20 17:28:53 INFO     P0     can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:33:10 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 17:33:11 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 17:33:23 INFO     P0     can reach ip fde4:2:1::2:bace of AS65002
+2019-12-20 17:33:24 INFO     P0     can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:33:25 INFO     P0     can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:33:25 INFO     P0     can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:33:26 INFO     P0     can reach ip fde4::1 of AS64512
+2019-12-20 17:33:27 INFO     P0     can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:35:43 INFO     P0     has an active eBGP session with AS64512 (fde4::1) on interface P0-eth5
+2019-12-20 17:35:43 INFO     P0     has an active eBGP session with AS65002 (fde4:2:1::2:bace) on interface P0-eth6
+2019-12-20 17:35:56 INFO     P0     can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:35:56 INFO     P0     can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:35:57 INFO     P0     can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:35:57 INFO     P0     can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:35:58 INFO     P0     can reach ip fde4::1 of AS64512

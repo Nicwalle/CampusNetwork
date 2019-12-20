@@ -59,7 +59,7 @@ def bgp():
         for ip in peers_ips:
             child = pexpect.spawn('sudo ../connect_to.sh project_config ' + router["name"])
             child.expect('bash-4.3#')
-            child.sendline('ping6 -c 1 ' + ip)
+            child.sendline('ping6 -c 1 -I '+ router['ip'] + ' ' + ip)
             idx = child.expect(['0% packet loss', r'\d+% packet loss'])
             if idx == 0:
                 Logger.get_logger(router["name"]).info("can reach ip {ip} of AS{as_number}".format(ip=ip, as_number=peers_ips[ip]))

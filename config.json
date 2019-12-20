@@ -168,7 +168,9 @@
                         "relationship": "provider",
                         "community": "provider",
                         "input-whitelist": [],
-                        "output-whitelist": ["fde4:1::/32","fde4:3::/32","fde4:9::/32"]
+                        "output-whitelist": ["fde4:1::/32","fde4:3::/32","fde4:9::/32"],
+                        "MD5_password" : "Networks21426500165002",
+                        "ping-ips": []
                     }
                 ]
             }

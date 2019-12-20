@@ -495,3 +495,52 @@
 2019-11-25 14:30:57 INFO     BW1    can reach ip fde4::1 of AS64512
 2019-11-25 14:30:57 INFO     BW1    can reach ip fde4:9::1:caf9 of AS65009
 2019-11-25 14:30:58 INFO     BW1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-19 20:46:27 INFO     BW1    can reach 11/11 routers of the core network
+2019-12-19 20:48:24 INFO     BW1    reached P0 via BW0 -> P0
+2019-12-19 20:48:25 INFO     BW1    reached P1 via P1
+2019-12-19 20:48:26 INFO     BW1    reached LUX0 via BW0 -> P0 -> LUX0
+2019-12-19 20:48:27 INFO     BW1    reached LUX1 via P1 -> LUX1
+2019-12-19 20:48:28 INFO     BW1    reached NAM0 via BW0 -> P0 -> NAM0
+2019-12-19 20:48:29 INFO     BW1    reached NAM1 via P1 -> NAM1
+2019-12-19 20:48:30 INFO     BW1    reached LG0 via BW0 -> P0 -> LG0
+2019-12-19 20:48:31 INFO     BW1    reached LG1 via P1 -> LG1
+2019-12-19 20:48:32 INFO     BW1    reached BW0 via BW0
+2019-12-19 20:48:33 INFO     BW1    reached BW1 via BW1
+2019-12-19 20:48:34 INFO     BW1    reached BX via BX
+2019-12-19 20:50:47 INFO     BW1    reached P0 via BW0 -> P0
+2019-12-19 20:50:49 INFO     BW1    reached P1 via P1
+2019-12-19 20:50:50 INFO     BW1    reached LUX0 via BW0 -> P0 -> LUX0
+2019-12-19 20:50:51 INFO     BW1    reached LUX1 via P1 -> LUX1
+2019-12-19 20:50:52 INFO     BW1    reached NAM0 via BW0 -> P0 -> NAM0
+2019-12-19 20:50:53 INFO     BW1    reached NAM1 via P1 -> NAM1
+2019-12-19 20:50:54 INFO     BW1    reached LG0 via BW0 -> P0 -> LG0
+2019-12-19 20:50:55 INFO     BW1    reached LG1 via P1 -> LG1
+2019-12-19 20:50:56 INFO     BW1    reached BW0 via BW0
+2019-12-19 20:50:57 INFO     BW1    reached BW1 via BW1
+2019-12-19 20:50:58 INFO     BW1    reached BX via BX
+2019-12-20 14:16:21 INFO     BW1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:16:21 INFO     BW1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:16:22 INFO     BW1    can reach ip fde4::1 of AS64512
+2019-12-20 14:16:22 INFO     BW1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:16:23 INFO     BW1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:18:32 INFO     BW1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:18:33 INFO     BW1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:18:33 INFO     BW1    can reach ip fde4::1 of AS64512
+2019-12-20 14:18:34 INFO     BW1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:18:34 INFO     BW1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:39:52 INFO     BW1    can reach 11/11 routers of the core network
+2019-12-20 14:41:16 INFO     BW1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:41:17 INFO     BW1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:41:17 INFO     BW1    can reach ip fde4::1 of AS64512
+2019-12-20 14:41:18 INFO     BW1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:41:18 INFO     BW1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:29 INFO     BW1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:54:29 INFO     BW1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:54:30 INFO     BW1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:54:31 INFO     BW1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:31 INFO     BW1    can reach ip fde4::1 of AS64512
+2019-12-20 17:27:01 INFO     BW1    can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:27:02 INFO     BW1    can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:27:02 INFO     BW1    can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:27:03 INFO     BW1    can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:27:04 INFO     BW1    can reach ip fde4::1 of AS64512

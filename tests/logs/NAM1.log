@@ -494,3 +494,64 @@
 2019-11-25 14:29:53 INFO     NAM1   can reach ip fde4::1 of AS64512
 2019-11-25 14:30:03 ERROR    NAM1   cannot reach ip fde4:9::1:caf9 of AS65009
 2019-11-25 14:30:04 INFO     NAM1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-19 20:46:20 INFO     NAM1   can reach 11/11 routers of the core network
+2019-12-19 20:47:36 INFO     NAM1   reached P0 via NAM0 -> P0
+2019-12-19 20:47:37 INFO     NAM1   reached P1 via P1
+2019-12-19 20:47:38 INFO     NAM1   reached LUX0 via NAM0 -> P0 -> LUX0
+2019-12-19 20:47:39 INFO     NAM1   reached LUX1 via P1 -> LUX1
+2019-12-19 20:47:40 INFO     NAM1   reached NAM0 via NAM0
+2019-12-19 20:47:41 INFO     NAM1   reached NAM1 via NAM1
+2019-12-19 20:47:42 INFO     NAM1   reached LG0 via NAM0 -> P0 -> LG0
+2019-12-19 20:47:43 INFO     NAM1   reached LG1 via P1 -> LG1
+2019-12-19 20:47:44 INFO     NAM1   reached BW0 via NAM0 -> P0 -> BW0
+2019-12-19 20:47:45 INFO     NAM1   reached BW1 via P1 -> BW1
+2019-12-19 20:47:46 INFO     NAM1   reached BX via P1 -> BW1 -> BX
+2019-12-19 20:49:59 INFO     NAM1   reached P0 via NAM0 -> P0
+2019-12-19 20:50:00 INFO     NAM1   reached P1 via P1
+2019-12-19 20:50:01 INFO     NAM1   reached LUX0 via NAM0 -> P0 -> LUX0
+2019-12-19 20:50:02 INFO     NAM1   reached LUX1 via P1 -> LUX1
+2019-12-19 20:50:03 INFO     NAM1   reached NAM0 via NAM0
+2019-12-19 20:50:04 INFO     NAM1   reached NAM1 via NAM1
+2019-12-19 20:50:05 INFO     NAM1   reached LG0 via NAM0 -> P0 -> LG0
+2019-12-19 20:50:06 INFO     NAM1   reached LG1 via P1 -> LG1
+2019-12-19 20:50:07 INFO     NAM1   reached BW0 via NAM0 -> P0 -> BW0
+2019-12-19 20:50:08 INFO     NAM1   reached BW1 via P1 -> BW1
+2019-12-19 20:50:09 INFO     NAM1   reached BX via P1 -> BW1 -> BX
+2019-12-20 14:15:58 INFO     NAM1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:15:59 INFO     NAM1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:15:59 INFO     NAM1   can reach ip fde4::1 of AS64512
+2019-12-20 14:16:00 INFO     NAM1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:16:01 INFO     NAM1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:18:09 INFO     NAM1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:18:10 INFO     NAM1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:18:10 INFO     NAM1   can reach ip fde4::1 of AS64512
+2019-12-20 14:18:11 INFO     NAM1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:18:11 INFO     NAM1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:39:42 INFO     NAM1   can reach 11/11 routers of the core network
+2019-12-20 14:40:53 INFO     NAM1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:40:54 INFO     NAM1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:40:54 INFO     NAM1   can reach ip fde4::1 of AS64512
+2019-12-20 14:40:55 INFO     NAM1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:40:56 INFO     NAM1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:16 INFO     NAM1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:54:17 INFO     NAM1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:54:18 INFO     NAM1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:54:18 INFO     NAM1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:19 INFO     NAM1   can reach ip fde4::1 of AS64512
+2019-12-20 17:26:40 INFO     NAM1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:26:40 INFO     NAM1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:26:41 INFO     NAM1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:26:41 INFO     NAM1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:26:42 INFO     NAM1   can reach ip fde4::1 of AS64512
+2019-12-20 17:29:51 INFO     NAM1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:29:51 INFO     NAM1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:30:02 ERROR    NAM1   cannot reach ip fde4:2:0:cc::c of AS65002
+2019-12-20 17:30:02 INFO     NAM1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:30:03 INFO     NAM1   can reach ip fde4::1 of AS64512
+2019-12-20 17:30:03 INFO     NAM1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:34:33 ERROR    NAM1   cannot reach ip fde4:2:1::2:bace of AS65002
+2019-12-20 17:34:34 INFO     NAM1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:34:35 INFO     NAM1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:34:35 INFO     NAM1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:34:36 INFO     NAM1   can reach ip fde4::1 of AS64512
+2019-12-20 17:34:37 INFO     NAM1   can reach ip fde4:9::1:caf9 of AS65009

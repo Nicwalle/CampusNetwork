@@ -538,3 +538,64 @@
 2019-11-25 14:29:26 INFO     LUX1   can reach ip fde4::1 of AS64512
 2019-11-25 14:29:36 ERROR    LUX1   cannot reach ip fde4:9::1:caf9 of AS65009
 2019-11-25 14:29:37 INFO     LUX1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-19 20:46:17 INFO     LUX1   can reach 11/11 routers of the core network
+2019-12-19 20:47:12 INFO     LUX1   reached P0 via LUX0 -> P0
+2019-12-19 20:47:13 INFO     LUX1   reached P1 via P1
+2019-12-19 20:47:14 INFO     LUX1   reached LUX0 via LUX0
+2019-12-19 20:47:15 INFO     LUX1   reached LUX1 via LUX1
+2019-12-19 20:47:16 INFO     LUX1   reached NAM0 via LUX0 -> P0 -> NAM0
+2019-12-19 20:47:17 INFO     LUX1   reached NAM1 via P1 -> NAM1
+2019-12-19 20:47:18 INFO     LUX1   reached LG0 via LUX0 -> P0 -> LG0
+2019-12-19 20:47:19 INFO     LUX1   reached LG1 via P1 -> LG1
+2019-12-19 20:47:20 INFO     LUX1   reached BW0 via LUX0 -> P0 -> BW0
+2019-12-19 20:47:21 INFO     LUX1   reached BW1 via P1 -> BW1
+2019-12-19 20:47:22 INFO     LUX1   reached BX via P1 -> BW1 -> BX
+2019-12-19 20:49:35 INFO     LUX1   reached P0 via LUX0 -> P0
+2019-12-19 20:49:36 INFO     LUX1   reached P1 via P1
+2019-12-19 20:49:37 INFO     LUX1   reached LUX0 via LUX0
+2019-12-19 20:49:38 INFO     LUX1   reached LUX1 via LUX1
+2019-12-19 20:49:39 INFO     LUX1   reached NAM0 via LUX0 -> P0 -> NAM0
+2019-12-19 20:49:40 INFO     LUX1   reached NAM1 via P1 -> NAM1
+2019-12-19 20:49:41 INFO     LUX1   reached LG0 via LUX0 -> P0 -> LG0
+2019-12-19 20:49:42 INFO     LUX1   reached LG1 via P1 -> LG1
+2019-12-19 20:49:43 INFO     LUX1   reached BW0 via LUX0 -> P0 -> BW0
+2019-12-19 20:49:44 INFO     LUX1   reached BW1 via P1 -> BW1
+2019-12-19 20:49:45 INFO     LUX1   reached BX via P1 -> BW1 -> BX
+2019-12-20 14:15:53 INFO     LUX1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:15:53 INFO     LUX1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:15:54 INFO     LUX1   can reach ip fde4::1 of AS64512
+2019-12-20 14:15:54 INFO     LUX1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:15:55 INFO     LUX1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:18:02 INFO     LUX1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:18:03 INFO     LUX1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:18:04 INFO     LUX1   can reach ip fde4::1 of AS64512
+2019-12-20 14:18:05 INFO     LUX1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:18:05 INFO     LUX1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:39:37 INFO     LUX1   can reach 11/11 routers of the core network
+2019-12-20 14:40:47 INFO     LUX1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:40:48 INFO     LUX1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:40:48 INFO     LUX1   can reach ip fde4::1 of AS64512
+2019-12-20 14:40:49 INFO     LUX1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:40:49 INFO     LUX1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:09 INFO     LUX1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 14:54:10 INFO     LUX1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 14:54:11 INFO     LUX1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 14:54:12 INFO     LUX1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 14:54:12 INFO     LUX1   can reach ip fde4::1 of AS64512
+2019-12-20 17:26:34 INFO     LUX1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:26:34 INFO     LUX1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:26:35 INFO     LUX1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:26:36 INFO     LUX1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:26:36 INFO     LUX1   can reach ip fde4::1 of AS64512
+2019-12-20 17:29:23 INFO     LUX1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:29:23 INFO     LUX1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:29:34 ERROR    LUX1   cannot reach ip fde4:2:0:cc::c of AS65002
+2019-12-20 17:29:35 INFO     LUX1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:29:35 INFO     LUX1   can reach ip fde4::1 of AS64512
+2019-12-20 17:29:36 INFO     LUX1   can reach ip fde4:9::1:caf9 of AS65009
+2019-12-20 17:34:06 ERROR    LUX1   cannot reach ip fde4:2:1::2:bace of AS65002
+2019-12-20 17:34:06 INFO     LUX1   can reach ip fde4:3::3:aaaa of AS65003
+2019-12-20 17:34:07 INFO     LUX1   can reach ip fde4:4:f000:1::e of AS65004
+2019-12-20 17:34:07 INFO     LUX1   can reach ip fde4:5:3000:1::5 of AS65005
+2019-12-20 17:34:08 INFO     LUX1   can reach ip fde4::1 of AS64512
+2019-12-20 17:34:09 INFO     LUX1   can reach ip fde4:9::1:caf9 of AS65009
